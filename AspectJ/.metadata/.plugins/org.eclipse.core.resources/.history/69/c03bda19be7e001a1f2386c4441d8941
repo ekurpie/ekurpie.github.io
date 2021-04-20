@@ -1,0 +1,102 @@
+package Testing;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+class Assignment4_bubble_sort_cases {
+
+	@Test
+	void test() {
+		sortingComparison test = new sortingComparison();
+		int arr[] = {23,154,34,12,765};
+		int arr2[] = {12,23,34,154,765};
+		test.bubbleSort(arr);
+		assertArrayEquals(arr,arr2);
+	}
+	
+	@Test
+	void test2() {
+		sortingComparison test2 = new sortingComparison();
+		int arr3[] = {};
+		int arr4[]= {};
+		test2.bubbleSort(arr3);
+		assertArrayEquals(arr3,arr4);
+	}
+	
+	@Test
+	void test3() {
+		sortingComparison test3 = new sortingComparison();
+		int arr[] = {-4,-12,-54,0,24,17};
+		int arr2[] = {-54,-12,-4,0,17,24};
+		test3.bubbleSort(arr);
+		assertArrayEquals(arr2, arr);
+	}
+	
+	@Test
+	/*
+	 * This one failed.
+	 */
+	void test4() {
+		sortingComparison test4 = new sortingComparison();
+		int arr[] = {1000000,564665555,2000000,3};
+		int arr2[] = {3,1000000,2000000,564665555};
+		test4.bubbleSort(arr);
+		assertArrayEquals(arr2,arr);
+	}
+	
+	@Test
+	
+	void test5() {
+		sortingComparison test5 = new sortingComparison();
+		int arr[] = {1,5,3,2,4,8,7};
+		int arr2[] = {1,2,3,4,5,7,8};
+		test5.bubbleSort(arr);
+		assertArrayEquals(arr2,arr);
+	}
+	
+	@Test
+	
+	void test6() {
+		sortingComparison test6 = new sortingComparison();
+		int arr[] = {0,1,2,3,4,5};
+		int arr2[] = {0,1,2,3,4,5};
+		test6.bubbleSort(arr);
+		assertArrayEquals(arr,arr2);
+		
+	}
+	
+	@Test
+	/*
+	 * this one failed
+	 */
+	void test7() {
+		sortingComparison test7 = new sortingComparison();
+		int arr[] = {5,4,3,2,1,0};
+		int arr2[] = {0,1,2,3,4,5};
+		test7.bubbleSort(arr);
+		assertArrayEquals(arr,arr2);
+	
+	}
+	
+	@Test
+	
+	void test8() {
+		sortingComparison test8 = new sortingComparison();
+		int arr[] = {1,2,3,5,4,6};
+		int arr2[] = {1,2,3,4,5,6};
+		test8.bubbleSort(arr);
+		assertArrayEquals(arr,arr2);
+	
+	}
+	
+	@Test
+	void test9() {
+		sortingComparison test9 = new sortingComparison();
+		int arr[] = {0,0,0,1,2,0,0};
+		int arr2[] = {0,0,0,0,0,1,2};
+		test9.bubbleSort(arr);
+		assertArrayEquals(arr,arr2);
+	}
+
+}

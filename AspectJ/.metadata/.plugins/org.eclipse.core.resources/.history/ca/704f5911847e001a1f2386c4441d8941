@@ -1,0 +1,15 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Assignment4_bubble_sort_cases {
+
+	@Test
+	void test() {
+		sortingComparison test = new sortingComparison();
+		int[] myIntArray = {1,3,2,54,6,34,3,2,12};
+		int output = test.bubbleSort(myIntArray);
+		ass
+	}
+
+}

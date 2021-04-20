@@ -1,0 +1,6 @@
+INFO:root:Start: 4_get_training_tweets.py 
+INFO:root:Initialize Twitter
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "POST /oauth2/token HTTP/1.1" 200 155
+INFO:root:Called function: Twitter.connect_to_API 
+ERROR:root:[read_csv] : iterator should return strings, not bytes (did you open the file in text mode?)

@@ -1,0 +1,3 @@
+INFO:root:Start: 7_classify_target_tweets.py 
+DEBUG:root:	- Processing tweet 1/82
+ERROR:root:[get_tweet_type_code] : 'UNCW'

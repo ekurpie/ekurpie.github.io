@@ -1,0 +1,70 @@
+package youtube;
+
+import java.util.List;
+
+public class Users {
+	private String firstName;
+	private String lastName;
+	
+	public String output() {
+		
+		return "Hi, my name is " + getFirstName() +  " " + getLastName() ;
+		
+		
+	}
+	
+	public String output(boolean nice) {
+		if(nice) {
+			return "you are a beautiful person " + fullName() + ".";
+			
+		}
+		else {
+		
+		return "You are a freek. - " + fullName() + ".";
+		}
+	}
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	
+	public String getLastName() {
+		return lastName;
+	}
+	
+	public void setFirstName(String name) {
+		firstName = name;
+	
+	}
+	
+	public void setLastName(String name) {
+		lastName = name;
+	}
+	
+	public String fullName() {
+		return firstName.toLowerCase() + " " + lastName.toLowerCase();
+	}
+	
+	public static void printUsers(List<Users> u) {
+		for(Users i : u) {
+		System.out.println(i.fullName());
+		}
+	}
+	
+	public static int searchList(List<Users> users, String fn, String ln) {
+		return searchList(users, fn.toLowerCase() + " " + ln.toLowerCase());
+	}
+	
+	public static int searchList(List<Users> users, String fullName) {
+		for(int i = 0; i < users.size(); i++) {
+			if(users.get(i).fullName() == fullName.toLowerCase()) {
+				return i;
+			}
+			else {
+				return -1;
+			}
+		}
+		
+	}
+}
+

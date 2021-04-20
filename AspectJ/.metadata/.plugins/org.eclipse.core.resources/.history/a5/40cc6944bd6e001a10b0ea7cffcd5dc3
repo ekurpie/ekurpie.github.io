@@ -1,0 +1,22 @@
+package cs550;
+
+public aspect CS550_homework3_problem4 {
+	/**
+	 * 4. an aspect to rather than do the normal withdrawal for each transfer, credit the withdrawal account with the withdrawal amount instead
+	 *
+	*/
+	pointcut creditWithdrawal (Account s, double amount):
+		withincode(public void transfer(int,int,double))
+		&& call(public boolean withdraw(double))
+			&& target(s)
+				&& args(amount);
+	
+	Boolean around (Account s, double amount):
+		creditWithdrawal(s,amount){
+		System.out.println("instead of doing the withdrawal we will deposit the withdrawal amount into the account");
+		System.out.println("about to credit withdrawal account:" + s.getId() + " balance " + s.getBalance() + " with " + amount);
+		s.deposit(amount);
+		return true;
+		
+	}
+}

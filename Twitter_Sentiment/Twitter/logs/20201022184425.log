@@ -1,0 +1,316 @@
+INFO:root:Start: 1_search_target_tweets.py 
+INFO:root:Processing mode of research: interdisciplinary
+INFO:root:Processing query: interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity
+INFO:root:Called function: get_last_tweet_id 
+DEBUG:root:Latest tweet ID: 1318014829248933894
+INFO:root:Called function: search_tweets_from_API 
+INFO:root:Initialize Twitter
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "POST /oauth2/token HTTP/1.1" 200 155
+INFO:root:Called function: Twitter.connect_to_API 
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 635975
+DEBUG:root:Downloaded number of tweets: 100
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319381943377711103', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319381943377711103&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 584594
+DEBUG:root:Downloaded number of tweets: 200
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319360885698199552', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319360885698199552&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 545606
+DEBUG:root:Downloaded number of tweets: 300
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319337871409664005', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319337871409664005&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 559691
+DEBUG:root:Downloaded number of tweets: 400
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319316969913536513', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319316969913536513&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 574388
+DEBUG:root:Downloaded number of tweets: 500
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319300090637541382', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319300090637541382&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 631583
+DEBUG:root:Downloaded number of tweets: 600
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319283114691203071', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319283114691203071&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 629681
+DEBUG:root:Downloaded number of tweets: 700
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319263003188002815', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319263003188002815&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 609990
+DEBUG:root:Downloaded number of tweets: 800
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319239521603620864', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319239521603620864&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 593251
+DEBUG:root:Downloaded number of tweets: 900
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319216676232175617', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319216676232175617&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 592059
+DEBUG:root:Downloaded number of tweets: 1000
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319185759572721664', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319185759572721664&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 611993
+DEBUG:root:Downloaded number of tweets: 1100
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319119864284364799', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319119864284364799&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 528159
+DEBUG:root:Downloaded number of tweets: 1200
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319044483389001731', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319044483389001731&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 584111
+DEBUG:root:Downloaded number of tweets: 1300
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1319006706316287999', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1319006706316287999&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 582949
+DEBUG:root:Downloaded number of tweets: 1400
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318983827226824703', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318983827226824703&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 540381
+DEBUG:root:Downloaded number of tweets: 1500
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318961011622367233', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318961011622367233&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 560489
+DEBUG:root:Downloaded number of tweets: 1600
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318940607709106176', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318940607709106176&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 550589
+DEBUG:root:Downloaded number of tweets: 1700
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318920312428384261', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318920312428384261&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 512127
+DEBUG:root:Downloaded number of tweets: 1800
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318886606548455423', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318886606548455423&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 567053
+DEBUG:root:Downloaded number of tweets: 1900
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318845645755744256', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318845645755744256&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 618553
+DEBUG:root:Downloaded number of tweets: 2000
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318795516835028992', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318795516835028992&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 567257
+DEBUG:root:Downloaded number of tweets: 2100
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318708773226225664', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318708773226225664&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 572072
+DEBUG:root:Downloaded number of tweets: 2200
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318665999491559423', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318665999491559423&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 601030
+DEBUG:root:Downloaded number of tweets: 2300
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318640421321510915', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318640421321510915&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 614186
+DEBUG:root:Downloaded number of tweets: 2400
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318607372223418370', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318607372223418370&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 540482
+DEBUG:root:Downloaded number of tweets: 2500
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318573576069566466', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318573576069566466&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 574029
+DEBUG:root:Downloaded number of tweets: 2600
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318553843458838528', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318553843458838528&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 585720
+DEBUG:root:Downloaded number of tweets: 2700
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318526191842844677', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318526191842844677&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 597735
+DEBUG:root:Downloaded number of tweets: 2800
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318505674960232447', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318505674960232447&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 549406
+DEBUG:root:Downloaded number of tweets: 2900
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318463465510572031', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318463465510572031&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 605716
+DEBUG:root:Downloaded number of tweets: 3000
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318385321734799360', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318385321734799360&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 573503
+DEBUG:root:Downloaded number of tweets: 3100
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318328452060119039', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318328452060119039&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 551649
+DEBUG:root:Downloaded number of tweets: 3200
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318294670603149321', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318294670603149321&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 584363
+DEBUG:root:Downloaded number of tweets: 3300
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318264602862518272', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318264602862518272&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 616251
+DEBUG:root:Downloaded number of tweets: 3400
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318245609283964928', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318245609283964928&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 621704
+DEBUG:root:Downloaded number of tweets: 3500
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318224832861908991', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318224832861908991&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 584073
+DEBUG:root:Downloaded number of tweets: 3600
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318207689118388225', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318207689118388225&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 559605
+DEBUG:root:Downloaded number of tweets: 3700
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318190673099710463', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318190673099710463&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 580376
+DEBUG:root:Downloaded number of tweets: 3800
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318158860088115199', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318158860088115199&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 556713
+DEBUG:root:Downloaded number of tweets: 3900
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318120083563171839', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318120083563171839&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 635485
+DEBUG:root:Downloaded number of tweets: 4000
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318065385644707839', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318065385644707839&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 295565
+DEBUG:root:Downloaded number of tweets: 4052
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity', 'count': b'100', 'max_id': b'1318016738231947268', 'since_id': b'1318014829248933894', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=interdisciplinary+OR+%23interdisciplinary+OR+interdisciplinarity+OR+%23interdisciplinarity&count=100&max_id=1318016738231947268&since_id=1318014829248933894&tweet_mode=extended HTTP/1.1" 200 470
+DEBUG:root:No more tweets found, exiting...
+INFO:root:Finished collecting interdisciplinary tweets
+
+INFO:root:Processing mode of research: multidisciplinary
+INFO:root:Processing query: multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity
+INFO:root:Called function: get_last_tweet_id 
+DEBUG:root:Latest tweet ID: 1318015499343589376
+INFO:root:Called function: search_tweets_from_API 
+INFO:root:Initialize Twitter
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "POST /oauth2/token HTTP/1.1" 200 155
+INFO:root:Called function: Twitter.connect_to_API 
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 623110
+DEBUG:root:Downloaded number of tweets: 100
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1319371967666016255', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1319371967666016255&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 608265
+DEBUG:root:Downloaded number of tweets: 200
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1319337729755389951', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1319337729755389951&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 524681
+DEBUG:root:Downloaded number of tweets: 300
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1319297233120972800', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1319297233120972800&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 548684
+DEBUG:root:Downloaded number of tweets: 400
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1319252990981775360', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1319252990981775360&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 535530
+DEBUG:root:Downloaded number of tweets: 500
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1319189325867814911', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1319189325867814911&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 592205
+DEBUG:root:Downloaded number of tweets: 600
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1319107814741012479', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1319107814741012479&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 589253
+DEBUG:root:Downloaded number of tweets: 700
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1319038312439578623', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1319038312439578623&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 583200
+DEBUG:root:Downloaded number of tweets: 800
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1318999561139032063', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1318999561139032063&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 591141
+DEBUG:root:Downloaded number of tweets: 900
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1318960733498036223', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1318960733498036223&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 631621
+DEBUG:root:Downloaded number of tweets: 1000
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1318935753615937535', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1318935753615937535&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 694829
+DEBUG:root:Downloaded number of tweets: 1100
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1318917340784975873', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1318917340784975873&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 633709
+DEBUG:root:Downloaded number of tweets: 1200
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1318885999565471745', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1318885999565471745&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 596969
+DEBUG:root:Downloaded number of tweets: 1300
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1318844759268610052', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1318844759268610052&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 664571
+DEBUG:root:Downloaded number of tweets: 1400
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1318772867140640767', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1318772867140640767&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 727775
+DEBUG:root:Downloaded number of tweets: 1500
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1318730810002874368', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1318730810002874368&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 200 774904
+DEBUG:root:Downloaded number of tweets: 1600
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'multidisciplinary OR #multidisciplinary OR multidisciplinarity OR #multidisciplinarity', 'count': b'100', 'max_id': b'1318705671047729154', 'since_id': b'1318015499343589376', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=multidisciplinary+OR+%23multidisciplinary+OR+multidisciplinarity+OR+%23multidisciplinarity&count=100&max_id=1318705671047729154&since_id=1318015499343589376&tweet_mode=extended HTTP/1.1" 503 51
+ERROR:root:[search_tweets] : [{'message': 'Over capacity', 'code': 130}]

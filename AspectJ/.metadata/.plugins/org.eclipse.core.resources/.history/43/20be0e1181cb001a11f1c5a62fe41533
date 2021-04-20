@@ -1,0 +1,27 @@
+package youtube;
+
+public class MySweetProgram {
+
+	public static void main(String[] args) { //methods
+		System.out.println("hello" + args[0]);
+		
+		var x = new MySweetProgram(); // creating an object
+		x.tacos();
+
+	}
+	
+	public void tacos() {
+		System.out.println("Tacos!");
+	}
+	String x = new String("hello"); //property -- stores a value
+	
+// class - contains everything - has members
+//methods - do somrething
+//properties - store something
+//statements -- telling the computer something
+
+//access modifier(public) -- who can use?
+//static - no oinstnace of class is needed
+//object - instnace of a class
+
+}

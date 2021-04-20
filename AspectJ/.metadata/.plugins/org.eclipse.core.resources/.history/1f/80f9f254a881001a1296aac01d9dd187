@@ -1,0 +1,133 @@
+package MyDatabase.lib;
+
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.*;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+
+public class Login extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField URL;
+	private JTextField Name;
+	private JTextField User;
+	private JTextField Pass;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Login frame = new Login();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Login() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblUrl = new JLabel("URL");
+		lblUrl.setBounds(28, 11, 49, 14);
+		contentPane.add(lblUrl);
+		
+		URL = new JTextField();
+		URL.setBounds(28, 29, 96, 20);
+		contentPane.add(URL);
+		URL.setColumns(10);
+		
+		JLabel lblDatabaseName = new JLabel("Database name");
+		lblDatabaseName.setBounds(28, 60, 189, 14);
+		contentPane.add(lblDatabaseName);
+		
+		Name = new JTextField();
+		Name.setBounds(28, 85, 96, 20);
+		contentPane.add(Name);
+		Name.setColumns(10);
+		
+		JLabel lblUsername = new JLabel("Username");
+		lblUsername.setBounds(28, 116, 108, 14);
+		contentPane.add(lblUsername);
+		
+		User = new JTextField();
+		User.setBounds(28, 141, 96, 20);
+		contentPane.add(User);
+		User.setColumns(10);
+		
+		JLabel lblPassword = new JLabel("Password");
+		lblPassword.setBounds(28, 172, 119, 14);
+		contentPane.add(lblPassword);
+		
+		Pass = new JTextField();
+		Pass.setBounds(28, 197, 96, 20);
+		contentPane.add(Pass);
+		Pass.setColumns(10);
+		
+		JButton btnLogin = new JButton("Login");
+		btnLogin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+					Connection myConn = DriverManager.getConnection("jdbc:mysql://"+lblUrl.toString() +":3306/" + lblDatabaseName.toString() , lblUsername.toString(), lblPassword.toString());
+					 // Do something with the Connection
+		            Statement stmt = myConn.createStatement();
+
+		            //Execute a query - which will return a result set
+		            ResultSet rset = stmt.executeQuery("SELECT * from player");
+
+		            //Iterate over the result set and process each tuple
+		            ResultSetMetaData columns = rset.getMetaData();
+		            int columnCount = columns.getColumnCount();
+		           for (int i = 1;i <= columnCount; i++) {
+		        	   String Column = columns.getColumnName(i);
+		        	   System.out.print(Column + "  ");
+		           }
+		            
+		            while (rset.next()) {
+		            	System.out.println();
+		            	for(int i = 1; i <= columnCount; i++) {
+		                    System.out.print(rset.getString(i) + "         ");
+		            	}  
+		            
+		            }
+		        
+		            // Clean up
+		            rset.close();
+		            stmt.close();
+					
+				}
+				catch(Exception A){ System.out.print(e);
+						
+					}
+				}
+			
+		});
+		btnLogin.setBounds(263, 112, 89, 23);
+		contentPane.add(btnLogin);
+		
+		JLabel lblDbLogin = new JLabel("DB Login");
+		lblDbLogin.setFont(new Font("Times New Roman", Font.PLAIN, 30));
+		lblDbLogin.setBounds(246, 29, 169, 73);
+		contentPane.add(lblDbLogin);
+	}
+}

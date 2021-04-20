@@ -1,0 +1,9 @@
+package Testing;
+import java.util.ArrayList;
+
+
+public static void main{String args[])
+	int[] myIntArray = new int[] {1,2,3,4,5,6};
+	sortingComparison j = new sortingComparison();
+	j.bubbleSort(myIntArray);
+}

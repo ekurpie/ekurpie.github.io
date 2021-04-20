@@ -1,0 +1,51 @@
+package cs550;
+
+public aspect MyAspects {
+/** 
+ * 2. An aspect to log the start and end of every money transfer.
+ * 
+ */
+	pointcut manageTransfer(Bank s, int sourceID, int targetID, double amount):
+		execution (public void transfer(int,int,double)) 
+			&& target(s)
+				&& args(sourceID, targetID, amount);
+
+	before (Bank s, int sourceID, int targetID, double amount):
+		manageTransfer(s, sourceID, targetID, amount){ System.out.println("about to make a money transfer") ;
+	}
+	
+	after (Bank s, int sourceID, int targetID, double amount):
+		manageTransfer(s, sourceID, targetID, amount){ System.out.println("money transfer complete.") ;
+	}
+ 
+ 
+	/**
+	 * An aspect to log each call to the deposit method every time the money transfer method executes.
+	 */
+	
+	pointcut transferDeposit(Account s, double amount):
+			withincode(public void transfer(int, int, double))
+				&& call(public boolean deposit(double))
+					&& target(s)
+						&& args(amount);
+	
+	before(Account s, double amount):
+		transferDeposit(s,amount){
+			System.out.println("shalambaba About to transfer" + amount + " into account #" + s.getId());
+		}
+		
+	
+	/**
+	 * An aspect to log each call to the deposit method every time the deposit method is called regardless of the calling context.
+	 */
+	
+	pointcut CallDeposit (Account s, double amount):
+		call(public boolean deposit(double))
+			&& target(s)
+				&& args(amount);
+	
+	before (Account s, double amount):
+		CallDeposit(s, amount){
+		System.out.println("Courtesy of Ward");
+	}
+}

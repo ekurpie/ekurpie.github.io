@@ -1,0 +1,1975 @@
+INFO:root:Start: 3_preprocess_target_tweets.py 
+DEBUG:root:Processing tweet 1/1543
+DEBUG:root:Processing tweet 2/1543
+DEBUG:root:Processing tweet 3/1543
+DEBUG:root:Tweet 1324408160459890690 already processed
+DEBUG:root:Processing tweet 4/1543
+DEBUG:root:Processing tweet 5/1543
+DEBUG:root:Processing tweet 6/1543
+DEBUG:root:Processing tweet 7/1543
+DEBUG:root:Processing tweet 8/1543
+DEBUG:root:Processing tweet 9/1543
+DEBUG:root:Processing tweet 10/1543
+DEBUG:root:Processing tweet 11/1543
+DEBUG:root:Processing tweet 12/1543
+DEBUG:root:Processing tweet 13/1543
+DEBUG:root:Processing tweet 14/1543
+DEBUG:root:Processing tweet 15/1543
+DEBUG:root:Processing tweet 16/1543
+DEBUG:root:Processing tweet 17/1543
+DEBUG:root:Processing tweet 18/1543
+DEBUG:root:Processing tweet 19/1543
+DEBUG:root:Processing tweet 20/1543
+DEBUG:root:Processing tweet 21/1543
+DEBUG:root:Processing tweet 22/1543
+DEBUG:root:Processing tweet 23/1543
+DEBUG:root:Processing tweet 24/1543
+DEBUG:root:Tweet 1324358439347187716 already processed
+DEBUG:root:Processing tweet 25/1543
+DEBUG:root:Processing tweet 26/1543
+DEBUG:root:Tweet 1324354854987436032 already processed
+DEBUG:root:Processing tweet 27/1543
+DEBUG:root:Processing tweet 28/1543
+DEBUG:root:Processing tweet 29/1543
+DEBUG:root:Processing tweet 30/1543
+DEBUG:root:Processing tweet 31/1543
+DEBUG:root:Processing tweet 32/1543
+DEBUG:root:Tweet 1324339831846150144 already processed
+DEBUG:root:Processing tweet 33/1543
+DEBUG:root:Processing tweet 34/1543
+DEBUG:root:Tweet 1324337435548024832 already processed
+DEBUG:root:Processing tweet 35/1543
+DEBUG:root:Processing tweet 36/1543
+DEBUG:root:Processing tweet 37/1543
+DEBUG:root:Processing tweet 38/1543
+DEBUG:root:Processing tweet 39/1543
+DEBUG:root:Processing tweet 40/1543
+DEBUG:root:Processing tweet 41/1543
+DEBUG:root:Processing tweet 42/1543
+DEBUG:root:Processing tweet 43/1543
+DEBUG:root:Processing tweet 44/1543
+DEBUG:root:Processing tweet 45/1543
+DEBUG:root:Processing tweet 46/1543
+DEBUG:root:Processing tweet 47/1543
+DEBUG:root:Processing tweet 48/1543
+DEBUG:root:Processing tweet 49/1543
+DEBUG:root:Processing tweet 50/1543
+DEBUG:root:Tweet 1324208290155421696 already processed
+DEBUG:root:Processing tweet 51/1543
+DEBUG:root:Processing tweet 52/1543
+DEBUG:root:Processing tweet 53/1543
+DEBUG:root:Processing tweet 54/1543
+DEBUG:root:Tweet 1324172311411499009 already processed
+DEBUG:root:Processing tweet 55/1543
+DEBUG:root:Processing tweet 56/1543
+DEBUG:root:Processing tweet 57/1543
+DEBUG:root:Processing tweet 58/1543
+DEBUG:root:Processing tweet 59/1543
+DEBUG:root:Processing tweet 60/1543
+DEBUG:root:Processing tweet 61/1543
+DEBUG:root:Processing tweet 62/1543
+DEBUG:root:Processing tweet 63/1543
+DEBUG:root:Processing tweet 64/1543
+DEBUG:root:Processing tweet 65/1543
+DEBUG:root:Tweet 1324139363383599109 already processed
+DEBUG:root:Processing tweet 66/1543
+DEBUG:root:Processing tweet 67/1543
+DEBUG:root:Processing tweet 68/1543
+DEBUG:root:Processing tweet 69/1543
+DEBUG:root:Processing tweet 70/1543
+DEBUG:root:Processing tweet 71/1543
+DEBUG:root:Processing tweet 72/1543
+DEBUG:root:Processing tweet 73/1543
+DEBUG:root:Processing tweet 74/1543
+DEBUG:root:Processing tweet 75/1543
+DEBUG:root:Processing tweet 76/1543
+DEBUG:root:Processing tweet 77/1543
+DEBUG:root:Processing tweet 78/1543
+DEBUG:root:Processing tweet 79/1543
+DEBUG:root:Tweet 1324079044569292800 already processed
+DEBUG:root:Processing tweet 80/1543
+DEBUG:root:Processing tweet 81/1543
+DEBUG:root:Processing tweet 82/1543
+DEBUG:root:Processing tweet 83/1543
+DEBUG:root:Processing tweet 84/1543
+DEBUG:root:Processing tweet 85/1543
+DEBUG:root:Processing tweet 86/1543
+DEBUG:root:Processing tweet 87/1543
+DEBUG:root:Processing tweet 88/1543
+DEBUG:root:Processing tweet 89/1543
+DEBUG:root:Processing tweet 90/1543
+DEBUG:root:Processing tweet 91/1543
+DEBUG:root:Processing tweet 92/1543
+DEBUG:root:Processing tweet 93/1543
+DEBUG:root:Processing tweet 94/1543
+DEBUG:root:Processing tweet 95/1543
+DEBUG:root:Processing tweet 96/1543
+DEBUG:root:Processing tweet 97/1543
+DEBUG:root:Processing tweet 98/1543
+DEBUG:root:Processing tweet 99/1543
+DEBUG:root:Tweet 1324027419913801730 already processed
+DEBUG:root:Processing tweet 100/1543
+DEBUG:root:Processing tweet 101/1543
+DEBUG:root:Processing tweet 102/1543
+DEBUG:root:Processing tweet 103/1543
+DEBUG:root:Tweet 1324026658186285060 already processed
+DEBUG:root:Processing tweet 104/1543
+DEBUG:root:Tweet 1324023377330397184 already processed
+DEBUG:root:Processing tweet 105/1543
+DEBUG:root:Processing tweet 106/1543
+DEBUG:root:Processing tweet 107/1543
+DEBUG:root:Processing tweet 108/1543
+DEBUG:root:Processing tweet 109/1543
+DEBUG:root:Processing tweet 110/1543
+DEBUG:root:Processing tweet 111/1543
+DEBUG:root:Processing tweet 112/1543
+DEBUG:root:Processing tweet 113/1543
+DEBUG:root:Processing tweet 114/1543
+DEBUG:root:Processing tweet 115/1543
+DEBUG:root:Processing tweet 116/1543
+DEBUG:root:Processing tweet 117/1543
+DEBUG:root:Processing tweet 118/1543
+DEBUG:root:Processing tweet 119/1543
+DEBUG:root:Processing tweet 120/1543
+DEBUG:root:Processing tweet 121/1543
+DEBUG:root:Processing tweet 122/1543
+DEBUG:root:Processing tweet 123/1543
+DEBUG:root:Processing tweet 124/1543
+DEBUG:root:Processing tweet 125/1543
+DEBUG:root:Processing tweet 126/1543
+DEBUG:root:Processing tweet 127/1543
+DEBUG:root:Processing tweet 128/1543
+DEBUG:root:Processing tweet 129/1543
+DEBUG:root:Processing tweet 130/1543
+DEBUG:root:Processing tweet 131/1543
+DEBUG:root:Processing tweet 132/1543
+DEBUG:root:Processing tweet 133/1543
+DEBUG:root:Processing tweet 134/1543
+DEBUG:root:Processing tweet 135/1543
+DEBUG:root:Processing tweet 136/1543
+DEBUG:root:Tweet 1324004776099631112 already processed
+DEBUG:root:Processing tweet 137/1543
+DEBUG:root:Processing tweet 138/1543
+DEBUG:root:Processing tweet 139/1543
+DEBUG:root:Processing tweet 140/1543
+DEBUG:root:Processing tweet 141/1543
+DEBUG:root:Processing tweet 142/1543
+DEBUG:root:Processing tweet 143/1543
+DEBUG:root:Processing tweet 144/1543
+DEBUG:root:Processing tweet 145/1543
+DEBUG:root:Processing tweet 146/1543
+DEBUG:root:Processing tweet 147/1543
+DEBUG:root:Processing tweet 148/1543
+DEBUG:root:Processing tweet 149/1543
+DEBUG:root:Processing tweet 150/1543
+DEBUG:root:Processing tweet 151/1543
+DEBUG:root:Tweet 1323992213676765186 already processed
+DEBUG:root:Processing tweet 152/1543
+DEBUG:root:Processing tweet 153/1543
+DEBUG:root:Processing tweet 154/1543
+DEBUG:root:Processing tweet 155/1543
+DEBUG:root:Processing tweet 156/1543
+DEBUG:root:Processing tweet 157/1543
+DEBUG:root:Processing tweet 158/1543
+DEBUG:root:Processing tweet 159/1543
+DEBUG:root:Processing tweet 160/1543
+DEBUG:root:Processing tweet 161/1543
+DEBUG:root:Processing tweet 162/1543
+DEBUG:root:Processing tweet 163/1543
+DEBUG:root:Processing tweet 164/1543
+DEBUG:root:Processing tweet 165/1543
+DEBUG:root:Processing tweet 166/1543
+DEBUG:root:Processing tweet 167/1543
+DEBUG:root:Processing tweet 168/1543
+DEBUG:root:Processing tweet 169/1543
+DEBUG:root:Processing tweet 170/1543
+DEBUG:root:Processing tweet 171/1543
+DEBUG:root:Processing tweet 172/1543
+DEBUG:root:Processing tweet 173/1543
+DEBUG:root:Processing tweet 174/1543
+DEBUG:root:Processing tweet 175/1543
+DEBUG:root:Processing tweet 176/1543
+DEBUG:root:Processing tweet 177/1543
+DEBUG:root:Tweet 1323973859700318209 already processed
+DEBUG:root:Processing tweet 178/1543
+DEBUG:root:Processing tweet 179/1543
+DEBUG:root:Processing tweet 180/1543
+DEBUG:root:Processing tweet 181/1543
+DEBUG:root:Processing tweet 182/1543
+DEBUG:root:Processing tweet 183/1543
+DEBUG:root:Processing tweet 184/1543
+DEBUG:root:Processing tweet 185/1543
+DEBUG:root:Processing tweet 186/1543
+DEBUG:root:Processing tweet 187/1543
+DEBUG:root:Processing tweet 188/1543
+DEBUG:root:Processing tweet 189/1543
+DEBUG:root:Processing tweet 190/1543
+DEBUG:root:Processing tweet 191/1543
+DEBUG:root:Processing tweet 192/1543
+DEBUG:root:Processing tweet 193/1543
+DEBUG:root:Processing tweet 194/1543
+DEBUG:root:Processing tweet 195/1543
+DEBUG:root:Processing tweet 196/1543
+DEBUG:root:Processing tweet 197/1543
+DEBUG:root:Processing tweet 198/1543
+DEBUG:root:Processing tweet 199/1543
+DEBUG:root:Processing tweet 200/1543
+DEBUG:root:Processing tweet 201/1543
+DEBUG:root:Processing tweet 202/1543
+DEBUG:root:Processing tweet 203/1543
+DEBUG:root:Processing tweet 204/1543
+DEBUG:root:Processing tweet 205/1543
+DEBUG:root:Processing tweet 206/1543
+DEBUG:root:Processing tweet 207/1543
+DEBUG:root:Processing tweet 208/1543
+DEBUG:root:Processing tweet 209/1543
+DEBUG:root:Processing tweet 210/1543
+DEBUG:root:Processing tweet 211/1543
+DEBUG:root:Processing tweet 212/1543
+DEBUG:root:Processing tweet 213/1543
+DEBUG:root:Processing tweet 214/1543
+DEBUG:root:Processing tweet 215/1543
+DEBUG:root:Processing tweet 216/1543
+DEBUG:root:Tweet 1323958728564088834 already processed
+DEBUG:root:Processing tweet 217/1543
+DEBUG:root:Processing tweet 218/1543
+DEBUG:root:Processing tweet 219/1543
+DEBUG:root:Processing tweet 220/1543
+DEBUG:root:Processing tweet 221/1543
+DEBUG:root:Processing tweet 222/1543
+DEBUG:root:Processing tweet 223/1543
+DEBUG:root:Processing tweet 224/1543
+DEBUG:root:Processing tweet 225/1543
+DEBUG:root:Processing tweet 226/1543
+DEBUG:root:Processing tweet 227/1543
+DEBUG:root:Processing tweet 228/1543
+DEBUG:root:Processing tweet 229/1543
+DEBUG:root:Processing tweet 230/1543
+DEBUG:root:Processing tweet 231/1543
+DEBUG:root:Processing tweet 232/1543
+DEBUG:root:Processing tweet 233/1543
+DEBUG:root:Processing tweet 234/1543
+DEBUG:root:Processing tweet 235/1543
+DEBUG:root:Processing tweet 236/1543
+DEBUG:root:Processing tweet 237/1543
+DEBUG:root:Processing tweet 238/1543
+DEBUG:root:Processing tweet 239/1543
+DEBUG:root:Processing tweet 240/1543
+DEBUG:root:Processing tweet 241/1543
+DEBUG:root:Processing tweet 242/1543
+DEBUG:root:Processing tweet 243/1543
+DEBUG:root:Processing tweet 244/1543
+DEBUG:root:Processing tweet 245/1543
+DEBUG:root:Processing tweet 246/1543
+DEBUG:root:Processing tweet 247/1543
+DEBUG:root:Processing tweet 248/1543
+DEBUG:root:Processing tweet 249/1543
+DEBUG:root:Processing tweet 250/1543
+DEBUG:root:Processing tweet 251/1543
+DEBUG:root:Processing tweet 252/1543
+DEBUG:root:Processing tweet 253/1543
+DEBUG:root:Processing tweet 254/1543
+DEBUG:root:Processing tweet 255/1543
+DEBUG:root:Processing tweet 256/1543
+DEBUG:root:Processing tweet 257/1543
+DEBUG:root:Processing tweet 258/1543
+DEBUG:root:Processing tweet 259/1543
+DEBUG:root:Processing tweet 260/1543
+DEBUG:root:Processing tweet 261/1543
+DEBUG:root:Processing tweet 262/1543
+DEBUG:root:Processing tweet 263/1543
+DEBUG:root:Processing tweet 264/1543
+DEBUG:root:Processing tweet 265/1543
+DEBUG:root:Processing tweet 266/1543
+DEBUG:root:Processing tweet 267/1543
+DEBUG:root:Processing tweet 268/1543
+DEBUG:root:Processing tweet 269/1543
+DEBUG:root:Processing tweet 270/1543
+DEBUG:root:Processing tweet 271/1543
+DEBUG:root:Processing tweet 272/1543
+DEBUG:root:Processing tweet 273/1543
+DEBUG:root:Processing tweet 274/1543
+DEBUG:root:Processing tweet 275/1543
+DEBUG:root:Processing tweet 276/1543
+DEBUG:root:Processing tweet 277/1543
+DEBUG:root:Processing tweet 278/1543
+DEBUG:root:Processing tweet 279/1543
+DEBUG:root:Processing tweet 280/1543
+DEBUG:root:Processing tweet 281/1543
+DEBUG:root:Processing tweet 282/1543
+DEBUG:root:Processing tweet 283/1543
+DEBUG:root:Processing tweet 284/1543
+DEBUG:root:Processing tweet 285/1543
+DEBUG:root:Processing tweet 286/1543
+DEBUG:root:Processing tweet 287/1543
+DEBUG:root:Processing tweet 288/1543
+DEBUG:root:Processing tweet 289/1543
+DEBUG:root:Processing tweet 290/1543
+DEBUG:root:Processing tweet 291/1543
+DEBUG:root:Processing tweet 292/1543
+DEBUG:root:Processing tweet 293/1543
+DEBUG:root:Processing tweet 294/1543
+DEBUG:root:Tweet 1323858095601307648 already processed
+DEBUG:root:Processing tweet 295/1543
+DEBUG:root:Processing tweet 296/1543
+DEBUG:root:Processing tweet 297/1543
+DEBUG:root:Processing tweet 298/1543
+DEBUG:root:Processing tweet 299/1543
+DEBUG:root:Processing tweet 300/1543
+DEBUG:root:Processing tweet 301/1543
+DEBUG:root:Processing tweet 302/1543
+DEBUG:root:Processing tweet 303/1543
+DEBUG:root:Processing tweet 304/1543
+DEBUG:root:Processing tweet 305/1543
+DEBUG:root:Processing tweet 306/1543
+DEBUG:root:Processing tweet 307/1543
+DEBUG:root:Processing tweet 308/1543
+DEBUG:root:Processing tweet 309/1543
+DEBUG:root:Processing tweet 310/1543
+DEBUG:root:Processing tweet 311/1543
+DEBUG:root:Processing tweet 312/1543
+DEBUG:root:Processing tweet 313/1543
+DEBUG:root:Tweet 1323806222475296774 already processed
+DEBUG:root:Processing tweet 314/1543
+DEBUG:root:Processing tweet 315/1543
+DEBUG:root:Processing tweet 316/1543
+DEBUG:root:Processing tweet 317/1543
+DEBUG:root:Processing tweet 318/1543
+DEBUG:root:Processing tweet 319/1543
+DEBUG:root:Processing tweet 320/1543
+DEBUG:root:Processing tweet 321/1543
+DEBUG:root:Processing tweet 322/1543
+DEBUG:root:Processing tweet 323/1543
+DEBUG:root:Processing tweet 324/1543
+DEBUG:root:Tweet 1323765885132222472 already processed
+DEBUG:root:Processing tweet 325/1543
+DEBUG:root:Processing tweet 326/1543
+DEBUG:root:Processing tweet 327/1543
+DEBUG:root:Processing tweet 328/1543
+DEBUG:root:Processing tweet 329/1543
+DEBUG:root:Processing tweet 330/1543
+DEBUG:root:Processing tweet 331/1543
+DEBUG:root:Processing tweet 332/1543
+DEBUG:root:Processing tweet 333/1543
+DEBUG:root:Tweet 1323760944414035968 already processed
+DEBUG:root:Processing tweet 334/1543
+DEBUG:root:Tweet 1323760591383744513 already processed
+DEBUG:root:Processing tweet 335/1543
+DEBUG:root:Tweet 1323753673252499456 already processed
+DEBUG:root:Processing tweet 336/1543
+DEBUG:root:Processing tweet 337/1543
+DEBUG:root:Tweet 1323753316266881025 already processed
+DEBUG:root:Processing tweet 338/1543
+DEBUG:root:Processing tweet 339/1543
+DEBUG:root:Processing tweet 340/1543
+DEBUG:root:Processing tweet 341/1543
+DEBUG:root:Processing tweet 342/1543
+DEBUG:root:Processing tweet 343/1543
+DEBUG:root:Processing tweet 344/1543
+DEBUG:root:Tweet 1323704713016127488 already processed
+DEBUG:root:Processing tweet 345/1543
+DEBUG:root:Processing tweet 346/1543
+DEBUG:root:Tweet 1323701380448690178 already processed
+DEBUG:root:Processing tweet 347/1543
+DEBUG:root:Processing tweet 348/1543
+DEBUG:root:Processing tweet 349/1543
+DEBUG:root:Processing tweet 350/1543
+DEBUG:root:Processing tweet 351/1543
+DEBUG:root:Processing tweet 352/1543
+DEBUG:root:Processing tweet 353/1543
+DEBUG:root:Processing tweet 354/1543
+DEBUG:root:Processing tweet 355/1543
+DEBUG:root:Tweet 1323668107290882048 already processed
+DEBUG:root:Processing tweet 356/1543
+DEBUG:root:Tweet 1323668099053297667 already processed
+DEBUG:root:Processing tweet 357/1543
+DEBUG:root:Processing tweet 358/1543
+DEBUG:root:Tweet 1323662188935106561 already processed
+DEBUG:root:Processing tweet 359/1543
+DEBUG:root:Processing tweet 360/1543
+DEBUG:root:Processing tweet 361/1543
+DEBUG:root:Processing tweet 362/1543
+DEBUG:root:Processing tweet 363/1543
+DEBUG:root:Processing tweet 364/1543
+DEBUG:root:Processing tweet 365/1543
+DEBUG:root:Processing tweet 366/1543
+DEBUG:root:Processing tweet 367/1543
+DEBUG:root:Processing tweet 368/1543
+DEBUG:root:Processing tweet 369/1543
+DEBUG:root:Processing tweet 370/1543
+DEBUG:root:Processing tweet 371/1543
+DEBUG:root:Processing tweet 372/1543
+DEBUG:root:Processing tweet 373/1543
+DEBUG:root:Processing tweet 374/1543
+DEBUG:root:Processing tweet 375/1543
+DEBUG:root:Processing tweet 376/1543
+DEBUG:root:Processing tweet 377/1543
+DEBUG:root:Processing tweet 378/1543
+DEBUG:root:Processing tweet 379/1543
+DEBUG:root:Processing tweet 380/1543
+DEBUG:root:Processing tweet 381/1543
+DEBUG:root:Tweet 1323630251218505730 already processed
+DEBUG:root:Processing tweet 382/1543
+DEBUG:root:Processing tweet 383/1543
+DEBUG:root:Processing tweet 384/1543
+DEBUG:root:Processing tweet 385/1543
+DEBUG:root:Processing tweet 386/1543
+DEBUG:root:Processing tweet 387/1543
+DEBUG:root:Processing tweet 388/1543
+DEBUG:root:Processing tweet 389/1543
+DEBUG:root:Processing tweet 390/1543
+DEBUG:root:Processing tweet 391/1543
+DEBUG:root:Processing tweet 392/1543
+DEBUG:root:Processing tweet 393/1543
+DEBUG:root:Processing tweet 394/1543
+DEBUG:root:Processing tweet 395/1543
+DEBUG:root:Processing tweet 396/1543
+DEBUG:root:Processing tweet 397/1543
+DEBUG:root:Processing tweet 398/1543
+DEBUG:root:Processing tweet 399/1543
+DEBUG:root:Tweet 1323602028917129216 already processed
+DEBUG:root:Processing tweet 400/1543
+DEBUG:root:Processing tweet 401/1543
+DEBUG:root:Processing tweet 402/1543
+DEBUG:root:Processing tweet 403/1543
+DEBUG:root:Processing tweet 404/1543
+DEBUG:root:Processing tweet 405/1543
+DEBUG:root:Tweet 1323459589300510722 already processed
+DEBUG:root:Processing tweet 406/1543
+DEBUG:root:Processing tweet 407/1543
+DEBUG:root:Processing tweet 408/1543
+DEBUG:root:Processing tweet 409/1543
+DEBUG:root:Processing tweet 410/1543
+DEBUG:root:Processing tweet 411/1543
+DEBUG:root:Processing tweet 412/1543
+DEBUG:root:Processing tweet 413/1543
+DEBUG:root:Processing tweet 414/1543
+DEBUG:root:Processing tweet 415/1543
+DEBUG:root:Processing tweet 416/1543
+DEBUG:root:Processing tweet 417/1543
+DEBUG:root:Processing tweet 418/1543
+DEBUG:root:Processing tweet 419/1543
+DEBUG:root:Tweet 1323379465196609539 already processed
+DEBUG:root:Processing tweet 420/1543
+DEBUG:root:Processing tweet 421/1543
+DEBUG:root:Processing tweet 422/1543
+DEBUG:root:Processing tweet 423/1543
+DEBUG:root:Processing tweet 424/1543
+DEBUG:root:Tweet 1323359572044689416 already processed
+DEBUG:root:Processing tweet 425/1543
+DEBUG:root:Processing tweet 426/1543
+DEBUG:root:Processing tweet 427/1543
+DEBUG:root:Processing tweet 428/1543
+DEBUG:root:Tweet 1323353222929616896 already processed
+DEBUG:root:Processing tweet 429/1543
+DEBUG:root:Tweet 1323352725996752896 already processed
+DEBUG:root:Processing tweet 430/1543
+DEBUG:root:Processing tweet 431/1543
+DEBUG:root:Processing tweet 432/1543
+DEBUG:root:Processing tweet 433/1543
+DEBUG:root:Processing tweet 434/1543
+DEBUG:root:Processing tweet 435/1543
+DEBUG:root:Processing tweet 436/1543
+DEBUG:root:Processing tweet 437/1543
+DEBUG:root:Processing tweet 438/1543
+DEBUG:root:Processing tweet 439/1543
+DEBUG:root:Processing tweet 440/1543
+DEBUG:root:Processing tweet 441/1543
+DEBUG:root:Processing tweet 442/1543
+DEBUG:root:Processing tweet 443/1543
+DEBUG:root:Processing tweet 444/1543
+DEBUG:root:Processing tweet 445/1543
+DEBUG:root:Tweet 1323295977260883969 already processed
+DEBUG:root:Processing tweet 446/1543
+DEBUG:root:Processing tweet 447/1543
+DEBUG:root:Processing tweet 448/1543
+DEBUG:root:Processing tweet 449/1543
+DEBUG:root:Tweet 1323281288053334017 already processed
+DEBUG:root:Processing tweet 450/1543
+DEBUG:root:Tweet 1323280381370662912 already processed
+DEBUG:root:Processing tweet 451/1543
+DEBUG:root:Tweet 1323278693050077185 already processed
+DEBUG:root:Processing tweet 452/1543
+DEBUG:root:Processing tweet 453/1543
+DEBUG:root:Processing tweet 454/1543
+DEBUG:root:Processing tweet 455/1543
+DEBUG:root:Processing tweet 456/1543
+DEBUG:root:Processing tweet 457/1543
+DEBUG:root:Processing tweet 458/1543
+DEBUG:root:Processing tweet 459/1543
+DEBUG:root:Processing tweet 460/1543
+DEBUG:root:Tweet 1323248493369073667 already processed
+DEBUG:root:Processing tweet 461/1543
+DEBUG:root:Processing tweet 462/1543
+DEBUG:root:Processing tweet 463/1543
+DEBUG:root:Processing tweet 464/1543
+DEBUG:root:Processing tweet 465/1543
+DEBUG:root:Processing tweet 466/1543
+DEBUG:root:Processing tweet 467/1543
+DEBUG:root:Processing tweet 468/1543
+DEBUG:root:Processing tweet 469/1543
+DEBUG:root:Processing tweet 470/1543
+DEBUG:root:Processing tweet 471/1543
+DEBUG:root:Processing tweet 472/1543
+DEBUG:root:Processing tweet 473/1543
+DEBUG:root:Processing tweet 474/1543
+DEBUG:root:Processing tweet 475/1543
+DEBUG:root:Processing tweet 476/1543
+DEBUG:root:Processing tweet 477/1543
+DEBUG:root:Processing tweet 478/1543
+DEBUG:root:Processing tweet 479/1543
+DEBUG:root:Processing tweet 480/1543
+DEBUG:root:Processing tweet 481/1543
+DEBUG:root:Processing tweet 482/1543
+DEBUG:root:Processing tweet 483/1543
+DEBUG:root:Tweet 1323047806559490049 already processed
+DEBUG:root:Processing tweet 484/1543
+DEBUG:root:Tweet 1323046148639281155 already processed
+DEBUG:root:Processing tweet 485/1543
+DEBUG:root:Processing tweet 486/1543
+DEBUG:root:Processing tweet 487/1543
+DEBUG:root:Processing tweet 488/1543
+DEBUG:root:Processing tweet 489/1543
+DEBUG:root:Processing tweet 490/1543
+DEBUG:root:Processing tweet 491/1543
+DEBUG:root:Processing tweet 492/1543
+DEBUG:root:Processing tweet 493/1543
+DEBUG:root:Processing tweet 494/1543
+DEBUG:root:Tweet 1323017986299539458 already processed
+DEBUG:root:Processing tweet 495/1543
+DEBUG:root:Processing tweet 496/1543
+DEBUG:root:Processing tweet 497/1543
+DEBUG:root:Processing tweet 498/1543
+DEBUG:root:Processing tweet 499/1543
+DEBUG:root:Processing tweet 500/1543
+DEBUG:root:Processing tweet 501/1543
+DEBUG:root:Processing tweet 502/1543
+DEBUG:root:Processing tweet 503/1543
+DEBUG:root:Processing tweet 504/1543
+DEBUG:root:Processing tweet 505/1543
+DEBUG:root:Processing tweet 506/1543
+DEBUG:root:Processing tweet 507/1543
+DEBUG:root:Processing tweet 508/1543
+DEBUG:root:Processing tweet 509/1543
+DEBUG:root:Tweet 1322921373497511938 already processed
+DEBUG:root:Processing tweet 510/1543
+DEBUG:root:Processing tweet 511/1543
+DEBUG:root:Processing tweet 512/1543
+DEBUG:root:Processing tweet 513/1543
+DEBUG:root:Processing tweet 514/1543
+DEBUG:root:Processing tweet 515/1543
+DEBUG:root:Processing tweet 516/1543
+DEBUG:root:Tweet 1322871348180455429 already processed
+DEBUG:root:Processing tweet 517/1543
+DEBUG:root:Processing tweet 518/1543
+DEBUG:root:Tweet 1322828561800138754 already processed
+DEBUG:root:Processing tweet 519/1543
+DEBUG:root:Processing tweet 520/1543
+DEBUG:root:Processing tweet 521/1543
+DEBUG:root:Processing tweet 522/1543
+DEBUG:root:Processing tweet 523/1543
+DEBUG:root:Processing tweet 524/1543
+DEBUG:root:Processing tweet 525/1543
+DEBUG:root:Processing tweet 526/1543
+DEBUG:root:Processing tweet 527/1543
+DEBUG:root:Processing tweet 528/1543
+DEBUG:root:Processing tweet 529/1543
+DEBUG:root:Processing tweet 530/1543
+DEBUG:root:Processing tweet 531/1543
+DEBUG:root:Processing tweet 532/1543
+DEBUG:root:Tweet 1322613955865567232 already processed
+DEBUG:root:Processing tweet 533/1543
+DEBUG:root:Processing tweet 534/1543
+DEBUG:root:Tweet 1322584116307484672 already processed
+DEBUG:root:Processing tweet 535/1543
+DEBUG:root:Processing tweet 536/1543
+DEBUG:root:Tweet 1322574461443448833 already processed
+DEBUG:root:Processing tweet 537/1543
+DEBUG:root:Processing tweet 538/1543
+DEBUG:root:Processing tweet 539/1543
+DEBUG:root:Processing tweet 540/1543
+DEBUG:root:Tweet 1322524174112428034 already processed
+DEBUG:root:Processing tweet 541/1543
+DEBUG:root:Processing tweet 542/1543
+DEBUG:root:Processing tweet 543/1543
+DEBUG:root:Processing tweet 544/1543
+DEBUG:root:Processing tweet 545/1543
+DEBUG:root:Processing tweet 546/1543
+DEBUG:root:Tweet 1322434839799365632 already processed
+DEBUG:root:Processing tweet 547/1543
+DEBUG:root:Processing tweet 548/1543
+DEBUG:root:Processing tweet 549/1543
+DEBUG:root:Processing tweet 550/1543
+DEBUG:root:Processing tweet 551/1543
+DEBUG:root:Processing tweet 552/1543
+DEBUG:root:Tweet 1322370573826220033 already processed
+DEBUG:root:Processing tweet 553/1543
+DEBUG:root:Processing tweet 554/1543
+DEBUG:root:Processing tweet 555/1543
+DEBUG:root:Processing tweet 556/1543
+DEBUG:root:Processing tweet 557/1543
+DEBUG:root:Processing tweet 558/1543
+DEBUG:root:Tweet 1322305672935960576 already processed
+DEBUG:root:Processing tweet 559/1543
+DEBUG:root:Processing tweet 560/1543
+DEBUG:root:Processing tweet 561/1543
+DEBUG:root:Processing tweet 562/1543
+DEBUG:root:Processing tweet 563/1543
+DEBUG:root:Processing tweet 564/1543
+DEBUG:root:Processing tweet 565/1543
+DEBUG:root:Processing tweet 566/1543
+DEBUG:root:Processing tweet 567/1543
+DEBUG:root:Processing tweet 568/1543
+DEBUG:root:Processing tweet 569/1543
+DEBUG:root:Processing tweet 570/1543
+DEBUG:root:Processing tweet 571/1543
+DEBUG:root:Processing tweet 572/1543
+DEBUG:root:Processing tweet 573/1543
+DEBUG:root:Processing tweet 574/1543
+DEBUG:root:Processing tweet 575/1543
+DEBUG:root:Processing tweet 576/1543
+DEBUG:root:Processing tweet 577/1543
+DEBUG:root:Processing tweet 578/1543
+DEBUG:root:Tweet 1322259801213194241 already processed
+DEBUG:root:Processing tweet 579/1543
+DEBUG:root:Processing tweet 580/1543
+DEBUG:root:Processing tweet 581/1543
+DEBUG:root:Processing tweet 582/1543
+DEBUG:root:Processing tweet 583/1543
+DEBUG:root:Processing tweet 584/1543
+DEBUG:root:Processing tweet 585/1543
+DEBUG:root:Processing tweet 586/1543
+DEBUG:root:Processing tweet 587/1543
+DEBUG:root:Processing tweet 588/1543
+DEBUG:root:Processing tweet 589/1543
+DEBUG:root:Processing tweet 590/1543
+DEBUG:root:Processing tweet 591/1543
+DEBUG:root:Processing tweet 592/1543
+DEBUG:root:Processing tweet 593/1543
+DEBUG:root:Processing tweet 594/1543
+DEBUG:root:Processing tweet 595/1543
+DEBUG:root:Processing tweet 596/1543
+DEBUG:root:Processing tweet 597/1543
+DEBUG:root:Processing tweet 598/1543
+DEBUG:root:Processing tweet 599/1543
+DEBUG:root:Processing tweet 600/1543
+DEBUG:root:Processing tweet 601/1543
+DEBUG:root:Processing tweet 602/1543
+DEBUG:root:Processing tweet 603/1543
+DEBUG:root:Processing tweet 604/1543
+DEBUG:root:Tweet 1322191631697743873 already processed
+DEBUG:root:Processing tweet 605/1543
+DEBUG:root:Processing tweet 606/1543
+DEBUG:root:Processing tweet 607/1543
+DEBUG:root:Processing tweet 608/1543
+DEBUG:root:Processing tweet 609/1543
+DEBUG:root:Processing tweet 610/1543
+DEBUG:root:Processing tweet 611/1543
+DEBUG:root:Tweet 1322170934783021058 already processed
+DEBUG:root:Processing tweet 612/1543
+DEBUG:root:Processing tweet 613/1543
+DEBUG:root:Tweet 1322167600332328965 already processed
+DEBUG:root:Processing tweet 614/1543
+DEBUG:root:Processing tweet 615/1543
+DEBUG:root:Processing tweet 616/1543
+DEBUG:root:Processing tweet 617/1543
+DEBUG:root:Tweet 1322147957647372288 already processed
+DEBUG:root:Processing tweet 618/1543
+DEBUG:root:Processing tweet 619/1543
+DEBUG:root:Processing tweet 620/1543
+DEBUG:root:Processing tweet 621/1543
+DEBUG:root:Processing tweet 622/1543
+DEBUG:root:Processing tweet 623/1543
+DEBUG:root:Processing tweet 624/1543
+DEBUG:root:Processing tweet 625/1543
+DEBUG:root:Processing tweet 626/1543
+DEBUG:root:Processing tweet 627/1543
+DEBUG:root:Processing tweet 628/1543
+DEBUG:root:Processing tweet 629/1543
+DEBUG:root:Processing tweet 630/1543
+DEBUG:root:Processing tweet 631/1543
+DEBUG:root:Processing tweet 632/1543
+DEBUG:root:Processing tweet 633/1543
+DEBUG:root:Processing tweet 634/1543
+DEBUG:root:Processing tweet 635/1543
+DEBUG:root:Processing tweet 636/1543
+DEBUG:root:Processing tweet 637/1543
+DEBUG:root:Processing tweet 638/1543
+DEBUG:root:Processing tweet 639/1543
+DEBUG:root:Processing tweet 640/1543
+DEBUG:root:Processing tweet 641/1543
+DEBUG:root:Processing tweet 642/1543
+DEBUG:root:Processing tweet 643/1543
+DEBUG:root:Processing tweet 644/1543
+DEBUG:root:Processing tweet 645/1543
+DEBUG:root:Processing tweet 646/1543
+DEBUG:root:Processing tweet 647/1543
+DEBUG:root:Processing tweet 648/1543
+DEBUG:root:Processing tweet 649/1543
+DEBUG:root:Processing tweet 650/1543
+DEBUG:root:Processing tweet 651/1543
+DEBUG:root:Processing tweet 652/1543
+DEBUG:root:Processing tweet 653/1543
+DEBUG:root:Processing tweet 654/1543
+DEBUG:root:Processing tweet 655/1543
+DEBUG:root:Processing tweet 656/1543
+DEBUG:root:Processing tweet 657/1543
+DEBUG:root:Tweet 1321968414638940161 already processed
+DEBUG:root:Processing tweet 658/1543
+DEBUG:root:Tweet 1321966700166860800 already processed
+DEBUG:root:Processing tweet 659/1543
+DEBUG:root:Processing tweet 660/1543
+DEBUG:root:Processing tweet 661/1543
+DEBUG:root:Processing tweet 662/1543
+DEBUG:root:Processing tweet 663/1543
+DEBUG:root:Processing tweet 664/1543
+DEBUG:root:Processing tweet 665/1543
+DEBUG:root:Processing tweet 666/1543
+DEBUG:root:Processing tweet 667/1543
+DEBUG:root:Processing tweet 668/1543
+DEBUG:root:Processing tweet 669/1543
+DEBUG:root:Processing tweet 670/1543
+DEBUG:root:Processing tweet 671/1543
+DEBUG:root:Processing tweet 672/1543
+DEBUG:root:Processing tweet 673/1543
+DEBUG:root:Processing tweet 674/1543
+DEBUG:root:Tweet 1321890636862312450 already processed
+DEBUG:root:Processing tweet 675/1543
+DEBUG:root:Tweet 1321890438618488838 already processed
+DEBUG:root:Processing tweet 676/1543
+DEBUG:root:Tweet 1321889544120213504 already processed
+DEBUG:root:Processing tweet 677/1543
+DEBUG:root:Processing tweet 678/1543
+DEBUG:root:Processing tweet 679/1543
+DEBUG:root:Processing tweet 680/1543
+DEBUG:root:Processing tweet 681/1543
+DEBUG:root:Processing tweet 682/1543
+DEBUG:root:Processing tweet 683/1543
+DEBUG:root:Processing tweet 684/1543
+DEBUG:root:Processing tweet 685/1543
+DEBUG:root:Processing tweet 686/1543
+DEBUG:root:Processing tweet 687/1543
+DEBUG:root:Processing tweet 688/1543
+DEBUG:root:Processing tweet 689/1543
+DEBUG:root:Processing tweet 690/1543
+DEBUG:root:Tweet 1321865767307104259 already processed
+DEBUG:root:Processing tweet 691/1543
+DEBUG:root:Processing tweet 692/1543
+DEBUG:root:Processing tweet 693/1543
+DEBUG:root:Processing tweet 694/1543
+DEBUG:root:Processing tweet 695/1543
+DEBUG:root:Processing tweet 696/1543
+DEBUG:root:Processing tweet 697/1543
+DEBUG:root:Processing tweet 698/1543
+DEBUG:root:Processing tweet 699/1543
+DEBUG:root:Processing tweet 700/1543
+DEBUG:root:Processing tweet 701/1543
+DEBUG:root:Processing tweet 702/1543
+DEBUG:root:Processing tweet 703/1543
+DEBUG:root:Tweet 1321847640355708930 already processed
+DEBUG:root:Processing tweet 704/1543
+DEBUG:root:Processing tweet 705/1543
+DEBUG:root:Tweet 1321846542416838657 already processed
+DEBUG:root:Processing tweet 706/1543
+DEBUG:root:Processing tweet 707/1543
+DEBUG:root:Processing tweet 708/1543
+DEBUG:root:Tweet 1321844250963709954 already processed
+DEBUG:root:Processing tweet 709/1543
+DEBUG:root:Tweet 1321844019484393474 already processed
+DEBUG:root:Processing tweet 710/1543
+DEBUG:root:Processing tweet 711/1543
+DEBUG:root:Processing tweet 712/1543
+DEBUG:root:Processing tweet 713/1543
+DEBUG:root:Processing tweet 714/1543
+DEBUG:root:Processing tweet 715/1543
+DEBUG:root:Tweet 1321826201384685569 already processed
+DEBUG:root:Processing tweet 716/1543
+DEBUG:root:Processing tweet 717/1543
+DEBUG:root:Tweet 1321814052000030721 already processed
+DEBUG:root:Processing tweet 718/1543
+DEBUG:root:Tweet 1321806485815517184 already processed
+DEBUG:root:Processing tweet 719/1543
+DEBUG:root:Processing tweet 720/1543
+DEBUG:root:Processing tweet 721/1543
+DEBUG:root:Processing tweet 722/1543
+DEBUG:root:Processing tweet 723/1543
+DEBUG:root:Processing tweet 724/1543
+DEBUG:root:Processing tweet 725/1543
+DEBUG:root:Tweet 1321777272374894592 already processed
+DEBUG:root:Processing tweet 726/1543
+DEBUG:root:Processing tweet 727/1543
+DEBUG:root:Processing tweet 728/1543
+DEBUG:root:Processing tweet 729/1543
+DEBUG:root:Processing tweet 730/1543
+DEBUG:root:Processing tweet 731/1543
+DEBUG:root:Processing tweet 732/1543
+DEBUG:root:Tweet 1321607530045472773 already processed
+DEBUG:root:Processing tweet 733/1543
+DEBUG:root:Processing tweet 734/1543
+DEBUG:root:Processing tweet 735/1543
+DEBUG:root:Tweet 1321594854300884992 already processed
+DEBUG:root:Processing tweet 736/1543
+DEBUG:root:Tweet 1321587554060136448 already processed
+DEBUG:root:Processing tweet 737/1543
+DEBUG:root:Processing tweet 738/1543
+DEBUG:root:Processing tweet 739/1543
+DEBUG:root:Processing tweet 740/1543
+DEBUG:root:Processing tweet 741/1543
+DEBUG:root:Processing tweet 742/1543
+DEBUG:root:Processing tweet 743/1543
+DEBUG:root:Processing tweet 744/1543
+DEBUG:root:Processing tweet 745/1543
+DEBUG:root:Processing tweet 746/1543
+DEBUG:root:Processing tweet 747/1543
+DEBUG:root:Processing tweet 748/1543
+DEBUG:root:Processing tweet 749/1543
+DEBUG:root:Processing tweet 750/1543
+DEBUG:root:Processing tweet 751/1543
+DEBUG:root:Tweet 1321490335525208064 already processed
+DEBUG:root:Processing tweet 752/1543
+DEBUG:root:Processing tweet 753/1543
+DEBUG:root:Tweet 1321487169161146369 already processed
+DEBUG:root:Processing tweet 754/1543
+DEBUG:root:Tweet 1321481853933670402 already processed
+DEBUG:root:Processing tweet 755/1543
+DEBUG:root:Processing tweet 756/1543
+DEBUG:root:Processing tweet 757/1543
+DEBUG:root:Processing tweet 758/1543
+DEBUG:root:Processing tweet 759/1543
+DEBUG:root:Processing tweet 760/1543
+DEBUG:root:Processing tweet 761/1543
+DEBUG:root:Tweet 1321451787338043393 already processed
+DEBUG:root:Processing tweet 762/1543
+DEBUG:root:Processing tweet 763/1543
+DEBUG:root:Processing tweet 764/1543
+DEBUG:root:Processing tweet 765/1543
+DEBUG:root:Processing tweet 766/1543
+DEBUG:root:Processing tweet 767/1543
+DEBUG:root:Processing tweet 768/1543
+DEBUG:root:Processing tweet 769/1543
+DEBUG:root:Processing tweet 770/1543
+DEBUG:root:Processing tweet 771/1543
+DEBUG:root:Processing tweet 772/1543
+DEBUG:root:Processing tweet 773/1543
+DEBUG:root:Processing tweet 774/1543
+DEBUG:root:Processing tweet 775/1543
+DEBUG:root:Processing tweet 776/1543
+DEBUG:root:Processing tweet 777/1543
+DEBUG:root:Processing tweet 778/1543
+DEBUG:root:Processing tweet 779/1543
+DEBUG:root:Tweet 1321302826686025732 already processed
+DEBUG:root:Processing tweet 780/1543
+DEBUG:root:Processing tweet 781/1543
+DEBUG:root:Processing tweet 782/1543
+DEBUG:root:Processing tweet 783/1543
+DEBUG:root:Processing tweet 784/1543
+DEBUG:root:Processing tweet 785/1543
+DEBUG:root:Processing tweet 786/1543
+DEBUG:root:Processing tweet 787/1543
+DEBUG:root:Processing tweet 788/1543
+DEBUG:root:Processing tweet 789/1543
+DEBUG:root:Processing tweet 790/1543
+DEBUG:root:Processing tweet 791/1543
+DEBUG:root:Processing tweet 792/1543
+DEBUG:root:Processing tweet 793/1543
+DEBUG:root:Processing tweet 794/1543
+DEBUG:root:Processing tweet 795/1543
+DEBUG:root:Processing tweet 796/1543
+DEBUG:root:Tweet 1321220356389150722 already processed
+DEBUG:root:Processing tweet 797/1543
+DEBUG:root:Processing tweet 798/1543
+DEBUG:root:Processing tweet 799/1543
+DEBUG:root:Processing tweet 800/1543
+DEBUG:root:Processing tweet 801/1543
+DEBUG:root:Processing tweet 802/1543
+DEBUG:root:Processing tweet 803/1543
+DEBUG:root:Processing tweet 804/1543
+DEBUG:root:Processing tweet 805/1543
+DEBUG:root:Processing tweet 806/1543
+DEBUG:root:Processing tweet 807/1543
+DEBUG:root:Tweet 1321186323659661312 already processed
+DEBUG:root:Processing tweet 808/1543
+DEBUG:root:Processing tweet 809/1543
+DEBUG:root:Processing tweet 810/1543
+DEBUG:root:Tweet 1321169833749348352 already processed
+DEBUG:root:Processing tweet 811/1543
+DEBUG:root:Processing tweet 812/1543
+DEBUG:root:Processing tweet 813/1543
+DEBUG:root:Processing tweet 814/1543
+DEBUG:root:Processing tweet 815/1543
+DEBUG:root:Processing tweet 816/1543
+DEBUG:root:Processing tweet 817/1543
+DEBUG:root:Processing tweet 818/1543
+DEBUG:root:Processing tweet 819/1543
+DEBUG:root:Processing tweet 820/1543
+DEBUG:root:Processing tweet 821/1543
+DEBUG:root:Tweet 1325423114302402560 already processed
+DEBUG:root:Processing tweet 822/1543
+DEBUG:root:Processing tweet 823/1543
+DEBUG:root:Processing tweet 824/1543
+DEBUG:root:Processing tweet 825/1543
+DEBUG:root:Processing tweet 826/1543
+DEBUG:root:Processing tweet 827/1543
+DEBUG:root:Tweet 1325389211000778753 already processed
+DEBUG:root:Processing tweet 828/1543
+DEBUG:root:Processing tweet 829/1543
+DEBUG:root:Tweet 1325232588148117505 already processed
+DEBUG:root:Processing tweet 830/1543
+DEBUG:root:Processing tweet 831/1543
+DEBUG:root:Processing tweet 832/1543
+DEBUG:root:Processing tweet 833/1543
+DEBUG:root:Processing tweet 834/1543
+DEBUG:root:Processing tweet 835/1543
+DEBUG:root:Processing tweet 836/1543
+DEBUG:root:Processing tweet 837/1543
+DEBUG:root:Processing tweet 838/1543
+DEBUG:root:Processing tweet 839/1543
+DEBUG:root:Processing tweet 840/1543
+DEBUG:root:Processing tweet 841/1543
+DEBUG:root:Tweet 1325135933591547904 already processed
+DEBUG:root:Processing tweet 842/1543
+DEBUG:root:Processing tweet 843/1543
+DEBUG:root:Processing tweet 844/1543
+DEBUG:root:Processing tweet 845/1543
+DEBUG:root:Processing tweet 846/1543
+DEBUG:root:Processing tweet 847/1543
+DEBUG:root:Processing tweet 848/1543
+DEBUG:root:Tweet 1325097248494149633 already processed
+DEBUG:root:Processing tweet 849/1543
+DEBUG:root:Processing tweet 850/1543
+DEBUG:root:Processing tweet 851/1543
+DEBUG:root:Tweet 1325077839083950080 already processed
+DEBUG:root:Processing tweet 852/1543
+DEBUG:root:Processing tweet 853/1543
+DEBUG:root:Processing tweet 854/1543
+DEBUG:root:Processing tweet 855/1543
+DEBUG:root:Processing tweet 856/1543
+DEBUG:root:Processing tweet 857/1543
+DEBUG:root:Processing tweet 858/1543
+DEBUG:root:Tweet 1325060991311372290 already processed
+DEBUG:root:Processing tweet 859/1543
+DEBUG:root:Processing tweet 860/1543
+DEBUG:root:Processing tweet 861/1543
+DEBUG:root:Processing tweet 862/1543
+DEBUG:root:Processing tweet 863/1543
+DEBUG:root:Processing tweet 864/1543
+DEBUG:root:Processing tweet 865/1543
+DEBUG:root:Processing tweet 866/1543
+DEBUG:root:Processing tweet 867/1543
+DEBUG:root:Processing tweet 868/1543
+DEBUG:root:Processing tweet 869/1543
+DEBUG:root:Processing tweet 870/1543
+DEBUG:root:Processing tweet 871/1543
+DEBUG:root:Processing tweet 872/1543
+DEBUG:root:Processing tweet 873/1543
+DEBUG:root:Processing tweet 874/1543
+DEBUG:root:Processing tweet 875/1543
+DEBUG:root:Processing tweet 876/1543
+DEBUG:root:Processing tweet 877/1543
+DEBUG:root:Processing tweet 878/1543
+DEBUG:root:Processing tweet 879/1543
+DEBUG:root:Processing tweet 880/1543
+DEBUG:root:Tweet 1324837029658660864 already processed
+DEBUG:root:Processing tweet 881/1543
+DEBUG:root:Processing tweet 882/1543
+DEBUG:root:Processing tweet 883/1543
+DEBUG:root:Processing tweet 884/1543
+DEBUG:root:Processing tweet 885/1543
+DEBUG:root:Processing tweet 886/1543
+DEBUG:root:Processing tweet 887/1543
+DEBUG:root:Processing tweet 888/1543
+DEBUG:root:Processing tweet 889/1543
+DEBUG:root:Processing tweet 890/1543
+DEBUG:root:Processing tweet 891/1543
+DEBUG:root:Processing tweet 892/1543
+DEBUG:root:Processing tweet 893/1543
+DEBUG:root:Processing tweet 894/1543
+DEBUG:root:Processing tweet 895/1543
+DEBUG:root:Processing tweet 896/1543
+DEBUG:root:Processing tweet 897/1543
+DEBUG:root:Processing tweet 898/1543
+DEBUG:root:Processing tweet 899/1543
+DEBUG:root:Processing tweet 900/1543
+DEBUG:root:Processing tweet 901/1543
+DEBUG:root:Processing tweet 902/1543
+DEBUG:root:Processing tweet 903/1543
+DEBUG:root:Tweet 1324782653904691201 already processed
+DEBUG:root:Processing tweet 904/1543
+DEBUG:root:Processing tweet 905/1543
+DEBUG:root:Processing tweet 906/1543
+DEBUG:root:Tweet 1324773550033698821 already processed
+DEBUG:root:Processing tweet 907/1543
+DEBUG:root:Processing tweet 908/1543
+DEBUG:root:Processing tweet 909/1543
+DEBUG:root:Processing tweet 910/1543
+DEBUG:root:Processing tweet 911/1543
+DEBUG:root:Processing tweet 912/1543
+DEBUG:root:Processing tweet 913/1543
+DEBUG:root:Processing tweet 914/1543
+DEBUG:root:Processing tweet 915/1543
+DEBUG:root:Tweet 1324758324827496449 already processed
+DEBUG:root:Processing tweet 916/1543
+DEBUG:root:Processing tweet 917/1543
+DEBUG:root:Processing tweet 918/1543
+DEBUG:root:Processing tweet 919/1543
+DEBUG:root:Tweet 1324737629431177216 already processed
+DEBUG:root:Processing tweet 920/1543
+DEBUG:root:Processing tweet 921/1543
+DEBUG:root:Tweet 1324735254054244354 already processed
+DEBUG:root:Processing tweet 922/1543
+DEBUG:root:Processing tweet 923/1543
+DEBUG:root:Processing tweet 924/1543
+DEBUG:root:Tweet 1324728249310695427 already processed
+DEBUG:root:Processing tweet 925/1543
+DEBUG:root:Tweet 1324728244889935874 already processed
+DEBUG:root:Processing tweet 926/1543
+DEBUG:root:Processing tweet 927/1543
+DEBUG:root:Processing tweet 928/1543
+DEBUG:root:Processing tweet 929/1543
+DEBUG:root:Tweet 1324710667203608578 already processed
+DEBUG:root:Processing tweet 930/1543
+DEBUG:root:Tweet 1324710420662358016 already processed
+DEBUG:root:Processing tweet 931/1543
+DEBUG:root:Processing tweet 932/1543
+DEBUG:root:Processing tweet 933/1543
+DEBUG:root:Processing tweet 934/1543
+DEBUG:root:Processing tweet 935/1543
+DEBUG:root:Processing tweet 936/1543
+DEBUG:root:Processing tweet 937/1543
+DEBUG:root:Processing tweet 938/1543
+DEBUG:root:Processing tweet 939/1543
+DEBUG:root:Processing tweet 940/1543
+DEBUG:root:Processing tweet 941/1543
+DEBUG:root:Tweet 1324698876608208896 already processed
+DEBUG:root:Processing tweet 942/1543
+DEBUG:root:Processing tweet 943/1543
+DEBUG:root:Processing tweet 944/1543
+DEBUG:root:Processing tweet 945/1543
+DEBUG:root:Processing tweet 946/1543
+DEBUG:root:Processing tweet 947/1543
+DEBUG:root:Processing tweet 948/1543
+DEBUG:root:Processing tweet 949/1543
+DEBUG:root:Processing tweet 950/1543
+DEBUG:root:Processing tweet 951/1543
+DEBUG:root:Processing tweet 952/1543
+DEBUG:root:Processing tweet 953/1543
+DEBUG:root:Processing tweet 954/1543
+DEBUG:root:Tweet 1324546859826704385 already processed
+DEBUG:root:Processing tweet 955/1543
+DEBUG:root:Processing tweet 956/1543
+DEBUG:root:Processing tweet 957/1543
+DEBUG:root:Processing tweet 958/1543
+DEBUG:root:Processing tweet 959/1543
+DEBUG:root:Processing tweet 960/1543
+DEBUG:root:Tweet 1324506279935643652 already processed
+DEBUG:root:Processing tweet 961/1543
+DEBUG:root:Processing tweet 962/1543
+DEBUG:root:Tweet 1324501752511524865 already processed
+DEBUG:root:Processing tweet 963/1543
+DEBUG:root:Processing tweet 964/1543
+DEBUG:root:Processing tweet 965/1543
+DEBUG:root:Processing tweet 966/1543
+DEBUG:root:Processing tweet 967/1543
+DEBUG:root:Processing tweet 968/1543
+DEBUG:root:Processing tweet 969/1543
+DEBUG:root:Processing tweet 970/1543
+DEBUG:root:Processing tweet 971/1543
+DEBUG:root:Processing tweet 972/1543
+DEBUG:root:Processing tweet 973/1543
+DEBUG:root:Processing tweet 974/1543
+DEBUG:root:Processing tweet 975/1543
+DEBUG:root:Processing tweet 976/1543
+DEBUG:root:Processing tweet 977/1543
+DEBUG:root:Processing tweet 978/1543
+DEBUG:root:Processing tweet 979/1543
+DEBUG:root:Processing tweet 980/1543
+DEBUG:root:Tweet 1324466423255736321 already processed
+DEBUG:root:Processing tweet 981/1543
+DEBUG:root:Processing tweet 982/1543
+DEBUG:root:Processing tweet 983/1543
+DEBUG:root:Processing tweet 984/1543
+DEBUG:root:Processing tweet 985/1543
+DEBUG:root:Processing tweet 986/1543
+DEBUG:root:Processing tweet 987/1543
+DEBUG:root:Processing tweet 988/1543
+DEBUG:root:Processing tweet 989/1543
+DEBUG:root:Processing tweet 990/1543
+DEBUG:root:Processing tweet 991/1543
+DEBUG:root:Processing tweet 992/1543
+DEBUG:root:Processing tweet 993/1543
+DEBUG:root:Processing tweet 994/1543
+DEBUG:root:Processing tweet 995/1543
+DEBUG:root:Processing tweet 996/1543
+DEBUG:root:Processing tweet 997/1543
+DEBUG:root:Processing tweet 998/1543
+DEBUG:root:Processing tweet 999/1543
+DEBUG:root:Processing tweet 1000/1543
+INFO:root:Academic word match in bio: education
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1001/1543
+DEBUG:root:Processing tweet 1002/1543
+DEBUG:root:Processing tweet 1003/1543
+DEBUG:root:Processing tweet 1004/1543
+DEBUG:root:Processing tweet 1005/1543
+DEBUG:root:Processing tweet 1006/1543
+DEBUG:root:Processing tweet 1007/1543
+DEBUG:root:Processing tweet 1008/1543
+DEBUG:root:Processing tweet 1009/1543
+DEBUG:root:Processing tweet 1010/1543
+DEBUG:root:Processing tweet 1011/1543
+DEBUG:root:Processing tweet 1012/1543
+DEBUG:root:Processing tweet 1013/1543
+DEBUG:root:Processing tweet 1014/1543
+DEBUG:root:Processing tweet 1015/1543
+DEBUG:root:Processing tweet 1016/1543
+DEBUG:root:Processing tweet 1017/1543
+DEBUG:root:Processing tweet 1018/1543
+DEBUG:root:Processing tweet 1019/1543
+DEBUG:root:Processing tweet 1020/1543
+DEBUG:root:Processing tweet 1021/1543
+DEBUG:root:Processing tweet 1022/1543
+DEBUG:root:Processing tweet 1023/1543
+DEBUG:root:Processing tweet 1024/1543
+DEBUG:root:Processing tweet 1025/1543
+INFO:root:Academic word match in bio: university
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 1026/1543
+DEBUG:root:Processing tweet 1027/1543
+DEBUG:root:Processing tweet 1028/1543
+DEBUG:root:Processing tweet 1029/1543
+DEBUG:root:Processing tweet 1030/1543
+DEBUG:root:Processing tweet 1031/1543
+DEBUG:root:Processing tweet 1032/1543
+DEBUG:root:Processing tweet 1033/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1034/1543
+DEBUG:root:Processing tweet 1035/1543
+DEBUG:root:Processing tweet 1036/1543
+DEBUG:root:Processing tweet 1037/1543
+INFO:root:Academic word match in bio: college
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1038/1543
+DEBUG:root:Processing tweet 1039/1543
+DEBUG:root:Processing tweet 1040/1543
+DEBUG:root:Processing tweet 1041/1543
+DEBUG:root:Processing tweet 1042/1543
+DEBUG:root:Processing tweet 1043/1543
+DEBUG:root:Processing tweet 1044/1543
+DEBUG:root:Processing tweet 1045/1543
+DEBUG:root:Processing tweet 1046/1543
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 1047/1543
+DEBUG:root:Processing tweet 1048/1543
+DEBUG:root:Processing tweet 1049/1543
+DEBUG:root:Processing tweet 1050/1543
+DEBUG:root:Processing tweet 1051/1543
+INFO:root:Academic word match in bio: scholar
+DEBUG:root:Processing tweet 1052/1543
+DEBUG:root:Processing tweet 1053/1543
+DEBUG:root:Processing tweet 1054/1543
+DEBUG:root:Processing tweet 1055/1543
+DEBUG:root:Processing tweet 1056/1543
+DEBUG:root:Processing tweet 1057/1543
+DEBUG:root:Processing tweet 1058/1543
+DEBUG:root:Processing tweet 1059/1543
+DEBUG:root:Processing tweet 1060/1543
+DEBUG:root:Processing tweet 1061/1543
+DEBUG:root:Processing tweet 1062/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1063/1543
+DEBUG:root:Processing tweet 1064/1543
+DEBUG:root:Processing tweet 1065/1543
+DEBUG:root:Processing tweet 1066/1543
+DEBUG:root:Processing tweet 1067/1543
+DEBUG:root:Processing tweet 1068/1543
+DEBUG:root:Processing tweet 1069/1543
+DEBUG:root:Processing tweet 1070/1543
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 1071/1543
+DEBUG:root:Processing tweet 1072/1543
+DEBUG:root:Processing tweet 1073/1543
+DEBUG:root:Processing tweet 1074/1543
+DEBUG:root:Processing tweet 1075/1543
+DEBUG:root:Processing tweet 1076/1543
+DEBUG:root:Processing tweet 1077/1543
+DEBUG:root:Processing tweet 1078/1543
+DEBUG:root:Processing tweet 1079/1543
+DEBUG:root:Processing tweet 1080/1543
+DEBUG:root:Processing tweet 1081/1543
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 1082/1543
+DEBUG:root:Processing tweet 1083/1543
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1084/1543
+DEBUG:root:Processing tweet 1085/1543
+DEBUG:root:Processing tweet 1086/1543
+DEBUG:root:Processing tweet 1087/1543
+DEBUG:root:Processing tweet 1088/1543
+DEBUG:root:Processing tweet 1089/1543
+DEBUG:root:Processing tweet 1090/1543
+DEBUG:root:Processing tweet 1091/1543
+DEBUG:root:Processing tweet 1092/1543
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1093/1543
+DEBUG:root:Processing tweet 1094/1543
+DEBUG:root:Processing tweet 1095/1543
+DEBUG:root:Processing tweet 1096/1543
+DEBUG:root:Processing tweet 1097/1543
+DEBUG:root:Processing tweet 1098/1543
+DEBUG:root:Processing tweet 1099/1543
+INFO:root:Academic word match in bio: university
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1100/1543
+DEBUG:root:Processing tweet 1101/1543
+DEBUG:root:Processing tweet 1102/1543
+DEBUG:root:Processing tweet 1103/1543
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 1104/1543
+DEBUG:root:Processing tweet 1105/1543
+DEBUG:root:Processing tweet 1106/1543
+DEBUG:root:Processing tweet 1107/1543
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 1108/1543
+DEBUG:root:Processing tweet 1109/1543
+DEBUG:root:Processing tweet 1110/1543
+DEBUG:root:Processing tweet 1111/1543
+DEBUG:root:Processing tweet 1112/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1113/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1114/1543
+DEBUG:root:Processing tweet 1115/1543
+DEBUG:root:Processing tweet 1116/1543
+DEBUG:root:Processing tweet 1117/1543
+DEBUG:root:Processing tweet 1118/1543
+DEBUG:root:Processing tweet 1119/1543
+DEBUG:root:Processing tweet 1120/1543
+DEBUG:root:Processing tweet 1121/1543
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1122/1543
+DEBUG:root:Processing tweet 1123/1543
+DEBUG:root:Processing tweet 1124/1543
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 1125/1543
+DEBUG:root:Processing tweet 1126/1543
+DEBUG:root:Processing tweet 1127/1543
+DEBUG:root:Processing tweet 1128/1543
+DEBUG:root:Processing tweet 1129/1543
+DEBUG:root:Processing tweet 1130/1543
+DEBUG:root:Processing tweet 1131/1543
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1132/1543
+DEBUG:root:Processing tweet 1133/1543
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 1134/1543
+DEBUG:root:Processing tweet 1135/1543
+DEBUG:root:Processing tweet 1136/1543
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1137/1543
+DEBUG:root:Processing tweet 1138/1543
+INFO:root:Academic word match in bio: phd 
+DEBUG:root:Processing tweet 1139/1543
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 1140/1543
+INFO:root:Academic word match in bio: phd 
+DEBUG:root:Processing tweet 1141/1543
+DEBUG:root:Processing tweet 1142/1543
+INFO:root:Academic word match in bio: phd 
+DEBUG:root:Processing tweet 1143/1543
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 1144/1543
+DEBUG:root:Processing tweet 1145/1543
+DEBUG:root:Processing tweet 1146/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1147/1543
+DEBUG:root:Processing tweet 1148/1543
+DEBUG:root:Processing tweet 1149/1543
+DEBUG:root:Processing tweet 1150/1543
+DEBUG:root:Processing tweet 1151/1543
+DEBUG:root:Processing tweet 1152/1543
+DEBUG:root:Processing tweet 1153/1543
+DEBUG:root:Processing tweet 1154/1543
+DEBUG:root:Processing tweet 1155/1543
+DEBUG:root:Processing tweet 1156/1543
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1157/1543
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1158/1543
+DEBUG:root:Processing tweet 1159/1543
+DEBUG:root:Processing tweet 1160/1543
+DEBUG:root:Processing tweet 1161/1543
+DEBUG:root:Processing tweet 1162/1543
+DEBUG:root:Processing tweet 1163/1543
+DEBUG:root:Processing tweet 1164/1543
+DEBUG:root:Processing tweet 1165/1543
+DEBUG:root:Processing tweet 1166/1543
+DEBUG:root:Processing tweet 1167/1543
+DEBUG:root:Processing tweet 1168/1543
+DEBUG:root:Processing tweet 1169/1543
+DEBUG:root:Processing tweet 1170/1543
+DEBUG:root:Processing tweet 1171/1543
+DEBUG:root:Processing tweet 1172/1543
+DEBUG:root:Processing tweet 1173/1543
+DEBUG:root:Processing tweet 1174/1543
+DEBUG:root:Processing tweet 1175/1543
+DEBUG:root:Processing tweet 1176/1543
+DEBUG:root:Processing tweet 1177/1543
+DEBUG:root:Processing tweet 1178/1543
+INFO:root:Academic word match in bio: professor
+INFO:root:Academic word match in bio: college
+INFO:root:Academic word match in bio: educator
+DEBUG:root:Processing tweet 1179/1543
+DEBUG:root:Processing tweet 1180/1543
+DEBUG:root:Processing tweet 1181/1543
+INFO:root:Academic word match in bio: graduate
+DEBUG:root:Processing tweet 1182/1543
+INFO:root:Academic word match in bio: scholar
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 1183/1543
+DEBUG:root:Processing tweet 1184/1543
+DEBUG:root:Processing tweet 1185/1543
+DEBUG:root:Processing tweet 1186/1543
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1187/1543
+DEBUG:root:Processing tweet 1188/1543
+INFO:root:Academic word match in bio: statistician
+INFO:root:Academic word match in bio: university
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 1189/1543
+DEBUG:root:Processing tweet 1190/1543
+DEBUG:root:Processing tweet 1191/1543
+DEBUG:root:Processing tweet 1192/1543
+DEBUG:root:Processing tweet 1193/1543
+DEBUG:root:Processing tweet 1194/1543
+DEBUG:root:Processing tweet 1195/1543
+DEBUG:root:Processing tweet 1196/1543
+DEBUG:root:Processing tweet 1197/1543
+INFO:root:Academic word match in bio: researcher
+INFO:root:Academic word match in bio: research
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1198/1543
+DEBUG:root:Processing tweet 1199/1543
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 1200/1543
+DEBUG:root:Processing tweet 1201/1543
+INFO:root:Academic word match in bio: college
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1202/1543
+DEBUG:root:Processing tweet 1203/1543
+DEBUG:root:Processing tweet 1204/1543
+DEBUG:root:Processing tweet 1205/1543
+DEBUG:root:Processing tweet 1206/1543
+DEBUG:root:Processing tweet 1207/1543
+DEBUG:root:Processing tweet 1208/1543
+DEBUG:root:Processing tweet 1209/1543
+DEBUG:root:Processing tweet 1210/1543
+DEBUG:root:Processing tweet 1211/1543
+DEBUG:root:Processing tweet 1212/1543
+DEBUG:root:Processing tweet 1213/1543
+DEBUG:root:Processing tweet 1214/1543
+DEBUG:root:Processing tweet 1215/1543
+DEBUG:root:Processing tweet 1216/1543
+DEBUG:root:Processing tweet 1217/1543
+DEBUG:root:Processing tweet 1218/1543
+DEBUG:root:Processing tweet 1219/1543
+DEBUG:root:Processing tweet 1220/1543
+DEBUG:root:Processing tweet 1221/1543
+DEBUG:root:Processing tweet 1222/1543
+DEBUG:root:Processing tweet 1223/1543
+DEBUG:root:Processing tweet 1224/1543
+DEBUG:root:Processing tweet 1225/1543
+DEBUG:root:Processing tweet 1226/1543
+DEBUG:root:Processing tweet 1227/1543
+DEBUG:root:Processing tweet 1228/1543
+DEBUG:root:Processing tweet 1229/1543
+DEBUG:root:Processing tweet 1230/1543
+DEBUG:root:Processing tweet 1231/1543
+DEBUG:root:Processing tweet 1232/1543
+DEBUG:root:Processing tweet 1233/1543
+DEBUG:root:Processing tweet 1234/1543
+DEBUG:root:Processing tweet 1235/1543
+DEBUG:root:Processing tweet 1236/1543
+DEBUG:root:Processing tweet 1237/1543
+DEBUG:root:Processing tweet 1238/1543
+DEBUG:root:Processing tweet 1239/1543
+DEBUG:root:Processing tweet 1240/1543
+DEBUG:root:Processing tweet 1241/1543
+DEBUG:root:Processing tweet 1242/1543
+DEBUG:root:Processing tweet 1243/1543
+DEBUG:root:Processing tweet 1244/1543
+DEBUG:root:Processing tweet 1245/1543
+DEBUG:root:Processing tweet 1246/1543
+DEBUG:root:Processing tweet 1247/1543
+DEBUG:root:Processing tweet 1248/1543
+DEBUG:root:Processing tweet 1249/1543
+DEBUG:root:Processing tweet 1250/1543
+DEBUG:root:Processing tweet 1251/1543
+DEBUG:root:Processing tweet 1252/1543
+DEBUG:root:Processing tweet 1253/1543
+DEBUG:root:Processing tweet 1254/1543
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 1255/1543
+DEBUG:root:Processing tweet 1256/1543
+DEBUG:root:Processing tweet 1257/1543
+DEBUG:root:Processing tweet 1258/1543
+DEBUG:root:Processing tweet 1259/1543
+DEBUG:root:Processing tweet 1260/1543
+DEBUG:root:Processing tweet 1261/1543
+DEBUG:root:Processing tweet 1262/1543
+DEBUG:root:Processing tweet 1263/1543
+DEBUG:root:Processing tweet 1264/1543
+DEBUG:root:Processing tweet 1265/1543
+DEBUG:root:Processing tweet 1266/1543
+DEBUG:root:Processing tweet 1267/1543
+DEBUG:root:Processing tweet 1268/1543
+DEBUG:root:Processing tweet 1269/1543
+DEBUG:root:Processing tweet 1270/1543
+DEBUG:root:Processing tweet 1271/1543
+DEBUG:root:Processing tweet 1272/1543
+DEBUG:root:Processing tweet 1273/1543
+DEBUG:root:Processing tweet 1274/1543
+DEBUG:root:Processing tweet 1275/1543
+DEBUG:root:Processing tweet 1276/1543
+DEBUG:root:Processing tweet 1277/1543
+DEBUG:root:Processing tweet 1278/1543
+DEBUG:root:Processing tweet 1279/1543
+DEBUG:root:Processing tweet 1280/1543
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1281/1543
+DEBUG:root:Processing tweet 1282/1543
+DEBUG:root:Processing tweet 1283/1543
+DEBUG:root:Processing tweet 1284/1543
+DEBUG:root:Processing tweet 1285/1543
+DEBUG:root:Processing tweet 1286/1543
+DEBUG:root:Processing tweet 1287/1543
+DEBUG:root:Processing tweet 1288/1543
+DEBUG:root:Processing tweet 1289/1543
+DEBUG:root:Processing tweet 1290/1543
+DEBUG:root:Processing tweet 1291/1543
+DEBUG:root:Processing tweet 1292/1543
+DEBUG:root:Processing tweet 1293/1543
+DEBUG:root:Processing tweet 1294/1543
+INFO:root:Academic word match in bio: higher education
+INFO:root:Academic word match in bio: faculty
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1295/1543
+DEBUG:root:Processing tweet 1296/1543
+DEBUG:root:Processing tweet 1297/1543
+DEBUG:root:Processing tweet 1298/1543
+DEBUG:root:Processing tweet 1299/1543
+DEBUG:root:Processing tweet 1300/1543
+DEBUG:root:Processing tweet 1301/1543
+DEBUG:root:Processing tweet 1302/1543
+DEBUG:root:Processing tweet 1303/1543
+DEBUG:root:Processing tweet 1304/1543
+DEBUG:root:Processing tweet 1305/1543
+INFO:root:Academic word match in bio: academy
+DEBUG:root:Processing tweet 1306/1543
+DEBUG:root:Processing tweet 1307/1543
+INFO:root:Academic word match in bio: academic
+DEBUG:root:Processing tweet 1308/1543
+DEBUG:root:Processing tweet 1309/1543
+DEBUG:root:Processing tweet 1310/1543
+DEBUG:root:Processing tweet 1311/1543
+DEBUG:root:Processing tweet 1312/1543
+DEBUG:root:Processing tweet 1313/1543
+DEBUG:root:Processing tweet 1314/1543
+DEBUG:root:Processing tweet 1315/1543
+DEBUG:root:Processing tweet 1316/1543
+DEBUG:root:Processing tweet 1317/1543
+INFO:root:Academic word match in bio: faculty
+DEBUG:root:Processing tweet 1318/1543
+INFO:root:Academic word match in bio: faculty
+DEBUG:root:Processing tweet 1319/1543
+INFO:root:Academic word match in bio: higher education
+INFO:root:Academic word match in bio: faculty
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1320/1543
+DEBUG:root:Processing tweet 1321/1543
+DEBUG:root:Processing tweet 1322/1543
+DEBUG:root:Processing tweet 1323/1543
+DEBUG:root:Processing tweet 1324/1543
+DEBUG:root:Processing tweet 1325/1543
+DEBUG:root:Processing tweet 1326/1543
+DEBUG:root:Processing tweet 1327/1543
+INFO:root:Academic word match in bio: higher education
+INFO:root:Academic word match in bio: faculty
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1328/1543
+DEBUG:root:Processing tweet 1329/1543
+DEBUG:root:Processing tweet 1330/1543
+INFO:root:Academic word match in bio: higher education
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1331/1543
+INFO:root:Academic word match in bio: studies
+DEBUG:root:Processing tweet 1332/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1333/1543
+DEBUG:root:Processing tweet 1334/1543
+DEBUG:root:Processing tweet 1335/1543
+INFO:root:Academic word match in bio: sociologist
+DEBUG:root:Processing tweet 1336/1543
+DEBUG:root:Processing tweet 1337/1543
+DEBUG:root:Processing tweet 1338/1543
+DEBUG:root:Processing tweet 1339/1543
+DEBUG:root:Processing tweet 1340/1543
+DEBUG:root:Processing tweet 1341/1543
+DEBUG:root:Processing tweet 1342/1543
+DEBUG:root:Processing tweet 1343/1543
+DEBUG:root:Processing tweet 1344/1543
+DEBUG:root:Processing tweet 1345/1543
+DEBUG:root:Processing tweet 1346/1543
+DEBUG:root:Processing tweet 1347/1543
+DEBUG:root:Processing tweet 1348/1543
+DEBUG:root:Processing tweet 1349/1543
+DEBUG:root:Processing tweet 1350/1543
+DEBUG:root:Processing tweet 1351/1543
+DEBUG:root:Processing tweet 1352/1543
+DEBUG:root:Processing tweet 1353/1543
+INFO:root:Academic word match in bio: university
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1354/1543
+DEBUG:root:Processing tweet 1355/1543
+DEBUG:root:Processing tweet 1356/1543
+DEBUG:root:Processing tweet 1357/1543
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1358/1543
+DEBUG:root:Processing tweet 1359/1543
+DEBUG:root:Processing tweet 1360/1543
+DEBUG:root:Processing tweet 1361/1543
+DEBUG:root:Processing tweet 1362/1543
+DEBUG:root:Processing tweet 1363/1543
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 1364/1543
+DEBUG:root:Processing tweet 1365/1543
+DEBUG:root:Processing tweet 1366/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1367/1543
+INFO:root:Academic word match in bio: academy
+DEBUG:root:Processing tweet 1368/1543
+DEBUG:root:Processing tweet 1369/1543
+DEBUG:root:Processing tweet 1370/1543
+DEBUG:root:Processing tweet 1371/1543
+INFO:root:Academic word match in bio: historian
+DEBUG:root:Processing tweet 1372/1543
+INFO:root:Academic word match in bio: professor
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1373/1543
+DEBUG:root:Processing tweet 1374/1543
+DEBUG:root:Processing tweet 1375/1543
+DEBUG:root:Processing tweet 1376/1543
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1377/1543
+DEBUG:root:Processing tweet 1378/1543
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 1379/1543
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1380/1543
+DEBUG:root:Processing tweet 1381/1543
+DEBUG:root:Processing tweet 1382/1543
+DEBUG:root:Processing tweet 1383/1543
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1384/1543
+DEBUG:root:Processing tweet 1385/1543
+DEBUG:root:Processing tweet 1386/1543
+DEBUG:root:Processing tweet 1387/1543
+DEBUG:root:Processing tweet 1388/1543
+DEBUG:root:Processing tweet 1389/1543
+DEBUG:root:Processing tweet 1390/1543
+INFO:root:Academic word match in bio: research
+DEBUG:root:Processing tweet 1391/1543
+DEBUG:root:Processing tweet 1392/1543
+DEBUG:root:Processing tweet 1393/1543
+DEBUG:root:Processing tweet 1394/1543
+DEBUG:root:Processing tweet 1395/1543
+DEBUG:root:Processing tweet 1396/1543
+DEBUG:root:Processing tweet 1397/1543
+DEBUG:root:Processing tweet 1398/1543
+DEBUG:root:Processing tweet 1399/1543
+DEBUG:root:Processing tweet 1400/1543
+DEBUG:root:Processing tweet 1401/1543
+DEBUG:root:Processing tweet 1402/1543
+DEBUG:root:Processing tweet 1403/1543
+DEBUG:root:Processing tweet 1404/1543
+DEBUG:root:Processing tweet 1405/1543
+DEBUG:root:Processing tweet 1406/1543
+DEBUG:root:Processing tweet 1407/1543
+DEBUG:root:Processing tweet 1408/1543
+DEBUG:root:Processing tweet 1409/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1410/1543
+DEBUG:root:Processing tweet 1411/1543
+INFO:root:Academic word match in bio: professor
+INFO:root:Academic word match in bio: engineer
+DEBUG:root:Processing tweet 1412/1543
+DEBUG:root:Processing tweet 1413/1543
+DEBUG:root:Processing tweet 1414/1543
+DEBUG:root:Processing tweet 1415/1543
+DEBUG:root:Processing tweet 1416/1543
+DEBUG:root:Processing tweet 1417/1543
+DEBUG:root:Processing tweet 1418/1543
+DEBUG:root:Processing tweet 1419/1543
+DEBUG:root:Processing tweet 1420/1543
+DEBUG:root:Processing tweet 1421/1543
+DEBUG:root:Processing tweet 1422/1543
+DEBUG:root:Processing tweet 1423/1543
+DEBUG:root:Processing tweet 1424/1543
+INFO:root:Academic word match in bio: higher education
+INFO:root:Academic word match in bio: college
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: undergraduate
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1425/1543
+DEBUG:root:Processing tweet 1426/1543
+DEBUG:root:Processing tweet 1427/1543
+INFO:root:Academic word match in bio: higher education
+INFO:root:Academic word match in bio: faculty
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1428/1543
+DEBUG:root:Processing tweet 1429/1543
+DEBUG:root:Processing tweet 1430/1543
+DEBUG:root:Processing tweet 1431/1543
+DEBUG:root:Processing tweet 1432/1543
+DEBUG:root:Processing tweet 1433/1543
+DEBUG:root:Processing tweet 1434/1543
+DEBUG:root:Processing tweet 1435/1543
+DEBUG:root:Processing tweet 1436/1543
+DEBUG:root:Processing tweet 1437/1543
+DEBUG:root:Processing tweet 1438/1543
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1439/1543
+DEBUG:root:Processing tweet 1440/1543
+DEBUG:root:Processing tweet 1441/1543
+DEBUG:root:Processing tweet 1442/1543
+DEBUG:root:Processing tweet 1443/1543
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 1444/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1445/1543
+INFO:root:Academic word match in bio: college
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1446/1543
+DEBUG:root:Processing tweet 1447/1543
+DEBUG:root:Processing tweet 1448/1543
+DEBUG:root:Processing tweet 1449/1543
+DEBUG:root:Processing tweet 1450/1543
+DEBUG:root:Processing tweet 1451/1543
+DEBUG:root:Processing tweet 1452/1543
+DEBUG:root:Processing tweet 1453/1543
+DEBUG:root:Processing tweet 1454/1543
+DEBUG:root:Processing tweet 1455/1543
+DEBUG:root:Processing tweet 1456/1543
+DEBUG:root:Processing tweet 1457/1543
+DEBUG:root:Processing tweet 1458/1543
+DEBUG:root:Processing tweet 1459/1543
+DEBUG:root:Processing tweet 1460/1543
+DEBUG:root:Processing tweet 1461/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1462/1543
+DEBUG:root:Processing tweet 1463/1543
+DEBUG:root:Processing tweet 1464/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1465/1543
+INFO:root:Academic word match in bio: college
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1466/1543
+DEBUG:root:Processing tweet 1467/1543
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1468/1543
+DEBUG:root:Processing tweet 1469/1543
+INFO:root:Academic word match in bio: academy
+DEBUG:root:Processing tweet 1470/1543
+DEBUG:root:Processing tweet 1471/1543
+INFO:root:Academic word match in bio: research
+DEBUG:root:Processing tweet 1472/1543
+DEBUG:root:Processing tweet 1473/1543
+DEBUG:root:Processing tweet 1474/1543
+DEBUG:root:Processing tweet 1475/1543
+DEBUG:root:Processing tweet 1476/1543
+DEBUG:root:Processing tweet 1477/1543
+DEBUG:root:Processing tweet 1478/1543
+DEBUG:root:Processing tweet 1479/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1480/1543
+DEBUG:root:Processing tweet 1481/1543
+DEBUG:root:Processing tweet 1482/1543
+DEBUG:root:Processing tweet 1483/1543
+DEBUG:root:Processing tweet 1484/1543
+DEBUG:root:Processing tweet 1485/1543
+DEBUG:root:Processing tweet 1486/1543
+DEBUG:root:Processing tweet 1487/1543
+DEBUG:root:Processing tweet 1488/1543
+DEBUG:root:Processing tweet 1489/1543
+DEBUG:root:Processing tweet 1490/1543
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1491/1543
+INFO:root:Academic word match in bio: studies
+DEBUG:root:Processing tweet 1492/1543
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 1493/1543
+DEBUG:root:Processing tweet 1494/1543
+DEBUG:root:Processing tweet 1495/1543
+DEBUG:root:Processing tweet 1496/1543
+DEBUG:root:Processing tweet 1497/1543
+DEBUG:root:Processing tweet 1498/1543
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1499/1543
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 1500/1543
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 1501/1543
+DEBUG:root:Processing tweet 1502/1543
+DEBUG:root:Processing tweet 1503/1543
+DEBUG:root:Processing tweet 1504/1543
+DEBUG:root:Processing tweet 1505/1543
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 1506/1543
+DEBUG:root:Processing tweet 1507/1543
+DEBUG:root:Processing tweet 1508/1543
+DEBUG:root:Processing tweet 1509/1543
+DEBUG:root:Processing tweet 1510/1543
+DEBUG:root:Processing tweet 1511/1543
+DEBUG:root:Processing tweet 1512/1543
+DEBUG:root:Processing tweet 1513/1543
+DEBUG:root:Processing tweet 1514/1543
+DEBUG:root:Processing tweet 1515/1543
+DEBUG:root:Processing tweet 1516/1543
+DEBUG:root:Processing tweet 1517/1543
+INFO:root:Academic word match in bio: sociologist
+INFO:root:Academic word match in bio: sociologists
+DEBUG:root:Processing tweet 1518/1543
+DEBUG:root:Processing tweet 1519/1543
+DEBUG:root:Processing tweet 1520/1543
+DEBUG:root:Processing tweet 1521/1543
+DEBUG:root:Processing tweet 1522/1543
+DEBUG:root:Processing tweet 1523/1543
+DEBUG:root:Processing tweet 1524/1543
+DEBUG:root:Processing tweet 1525/1543
+DEBUG:root:Processing tweet 1526/1543
+DEBUG:root:Processing tweet 1527/1543
+DEBUG:root:Processing tweet 1528/1543
+DEBUG:root:Processing tweet 1529/1543
+DEBUG:root:Processing tweet 1530/1543
+DEBUG:root:Processing tweet 1531/1543
+DEBUG:root:Processing tweet 1532/1543
+DEBUG:root:Processing tweet 1533/1543
+DEBUG:root:Processing tweet 1534/1543
+DEBUG:root:Processing tweet 1535/1543
+DEBUG:root:Processing tweet 1536/1543
+DEBUG:root:Processing tweet 1537/1543
+DEBUG:root:Processing tweet 1538/1543
+DEBUG:root:Processing tweet 1539/1543
+DEBUG:root:Processing tweet 1540/1543
+DEBUG:root:Processing tweet 1541/1543
+DEBUG:root:Processing tweet 1542/1543
+DEBUG:root:Processing tweet 1543/1543
+DEBUG:root:Processing tweet 1/190
+DEBUG:root:Processing tweet 2/190
+DEBUG:root:Processing tweet 3/190
+DEBUG:root:Processing tweet 4/190
+DEBUG:root:Processing tweet 5/190
+DEBUG:root:Processing tweet 6/190
+DEBUG:root:Processing tweet 7/190
+DEBUG:root:Processing tweet 8/190
+DEBUG:root:Processing tweet 9/190
+DEBUG:root:Processing tweet 10/190
+DEBUG:root:Processing tweet 11/190
+DEBUG:root:Processing tweet 12/190
+DEBUG:root:Processing tweet 13/190
+DEBUG:root:Processing tweet 14/190
+DEBUG:root:Processing tweet 15/190
+DEBUG:root:Processing tweet 16/190
+DEBUG:root:Processing tweet 17/190
+DEBUG:root:Processing tweet 18/190
+DEBUG:root:Processing tweet 19/190
+DEBUG:root:Processing tweet 20/190
+DEBUG:root:Processing tweet 21/190
+DEBUG:root:Processing tweet 22/190
+DEBUG:root:Processing tweet 23/190
+DEBUG:root:Processing tweet 24/190
+DEBUG:root:Processing tweet 25/190
+DEBUG:root:Processing tweet 26/190
+DEBUG:root:Processing tweet 27/190
+DEBUG:root:Processing tweet 28/190
+DEBUG:root:Processing tweet 29/190
+DEBUG:root:Processing tweet 30/190
+DEBUG:root:Processing tweet 31/190
+DEBUG:root:Processing tweet 32/190
+DEBUG:root:Processing tweet 33/190
+DEBUG:root:Processing tweet 34/190
+DEBUG:root:Processing tweet 35/190
+DEBUG:root:Processing tweet 36/190
+DEBUG:root:Processing tweet 37/190
+DEBUG:root:Processing tweet 38/190
+DEBUG:root:Processing tweet 39/190
+DEBUG:root:Processing tweet 40/190
+DEBUG:root:Processing tweet 41/190
+DEBUG:root:Processing tweet 42/190
+DEBUG:root:Processing tweet 43/190
+DEBUG:root:Processing tweet 44/190
+DEBUG:root:Processing tweet 45/190
+DEBUG:root:Processing tweet 46/190
+DEBUG:root:Processing tweet 47/190
+DEBUG:root:Processing tweet 48/190
+DEBUG:root:Processing tweet 49/190
+DEBUG:root:Processing tweet 50/190
+DEBUG:root:Processing tweet 51/190
+DEBUG:root:Processing tweet 52/190
+DEBUG:root:Processing tweet 53/190
+DEBUG:root:Processing tweet 54/190
+DEBUG:root:Processing tweet 55/190
+DEBUG:root:Processing tweet 56/190
+DEBUG:root:Processing tweet 57/190
+DEBUG:root:Processing tweet 58/190
+DEBUG:root:Processing tweet 59/190
+DEBUG:root:Processing tweet 60/190
+DEBUG:root:Processing tweet 61/190
+DEBUG:root:Processing tweet 62/190
+DEBUG:root:Processing tweet 63/190
+DEBUG:root:Processing tweet 64/190
+DEBUG:root:Processing tweet 65/190
+DEBUG:root:Processing tweet 66/190
+DEBUG:root:Processing tweet 67/190
+DEBUG:root:Processing tweet 68/190
+DEBUG:root:Processing tweet 69/190
+DEBUG:root:Processing tweet 70/190
+DEBUG:root:Processing tweet 71/190
+DEBUG:root:Processing tweet 72/190
+DEBUG:root:Processing tweet 73/190
+DEBUG:root:Processing tweet 74/190
+DEBUG:root:Processing tweet 75/190
+DEBUG:root:Processing tweet 76/190
+DEBUG:root:Processing tweet 77/190
+DEBUG:root:Processing tweet 78/190
+DEBUG:root:Processing tweet 79/190
+DEBUG:root:Processing tweet 80/190
+DEBUG:root:Processing tweet 81/190
+DEBUG:root:Processing tweet 82/190
+DEBUG:root:Processing tweet 83/190
+DEBUG:root:Processing tweet 84/190
+DEBUG:root:Processing tweet 85/190
+DEBUG:root:Processing tweet 86/190
+DEBUG:root:Processing tweet 87/190
+DEBUG:root:Processing tweet 88/190
+DEBUG:root:Processing tweet 89/190
+DEBUG:root:Processing tweet 90/190
+DEBUG:root:Processing tweet 91/190
+DEBUG:root:Processing tweet 92/190
+DEBUG:root:Processing tweet 93/190
+DEBUG:root:Processing tweet 94/190
+DEBUG:root:Processing tweet 95/190
+DEBUG:root:Processing tweet 96/190
+DEBUG:root:Processing tweet 97/190
+DEBUG:root:Processing tweet 98/190
+DEBUG:root:Processing tweet 99/190
+DEBUG:root:Processing tweet 100/190
+DEBUG:root:Processing tweet 101/190
+DEBUG:root:Processing tweet 102/190
+DEBUG:root:Processing tweet 103/190
+DEBUG:root:Processing tweet 104/190
+DEBUG:root:Processing tweet 105/190
+DEBUG:root:Processing tweet 106/190
+DEBUG:root:Processing tweet 107/190
+DEBUG:root:Processing tweet 108/190
+DEBUG:root:Processing tweet 109/190
+DEBUG:root:Processing tweet 110/190
+DEBUG:root:Processing tweet 111/190
+DEBUG:root:Processing tweet 112/190
+DEBUG:root:Processing tweet 113/190
+DEBUG:root:Processing tweet 114/190
+DEBUG:root:Processing tweet 115/190
+DEBUG:root:Processing tweet 116/190
+DEBUG:root:Processing tweet 117/190
+DEBUG:root:Processing tweet 118/190
+DEBUG:root:Processing tweet 119/190
+DEBUG:root:Processing tweet 120/190
+DEBUG:root:Processing tweet 121/190
+DEBUG:root:Processing tweet 122/190
+DEBUG:root:Processing tweet 123/190
+DEBUG:root:Processing tweet 124/190
+DEBUG:root:Processing tweet 125/190
+DEBUG:root:Processing tweet 126/190
+DEBUG:root:Processing tweet 127/190
+DEBUG:root:Processing tweet 128/190
+DEBUG:root:Processing tweet 129/190
+DEBUG:root:Processing tweet 130/190
+DEBUG:root:Processing tweet 131/190
+DEBUG:root:Processing tweet 132/190
+DEBUG:root:Processing tweet 133/190
+DEBUG:root:Processing tweet 134/190
+DEBUG:root:Processing tweet 135/190
+DEBUG:root:Processing tweet 136/190
+DEBUG:root:Processing tweet 137/190
+DEBUG:root:Processing tweet 138/190
+DEBUG:root:Processing tweet 139/190
+DEBUG:root:Processing tweet 140/190
+DEBUG:root:Processing tweet 141/190
+DEBUG:root:Processing tweet 142/190
+DEBUG:root:Processing tweet 143/190
+DEBUG:root:Processing tweet 144/190
+DEBUG:root:Processing tweet 145/190
+DEBUG:root:Processing tweet 146/190
+DEBUG:root:Processing tweet 147/190
+DEBUG:root:Processing tweet 148/190
+DEBUG:root:Processing tweet 149/190
+DEBUG:root:Processing tweet 150/190
+DEBUG:root:Processing tweet 151/190
+DEBUG:root:Processing tweet 152/190
+DEBUG:root:Processing tweet 153/190
+DEBUG:root:Processing tweet 154/190
+DEBUG:root:Processing tweet 155/190
+DEBUG:root:Processing tweet 156/190
+DEBUG:root:Processing tweet 157/190
+DEBUG:root:Processing tweet 158/190
+DEBUG:root:Processing tweet 159/190
+DEBUG:root:Processing tweet 160/190
+DEBUG:root:Processing tweet 161/190
+DEBUG:root:Processing tweet 162/190
+DEBUG:root:Processing tweet 163/190
+DEBUG:root:Processing tweet 164/190
+DEBUG:root:Processing tweet 165/190
+DEBUG:root:Processing tweet 166/190
+DEBUG:root:Processing tweet 167/190
+DEBUG:root:Processing tweet 168/190
+DEBUG:root:Processing tweet 169/190
+DEBUG:root:Processing tweet 170/190
+DEBUG:root:Processing tweet 171/190
+DEBUG:root:Processing tweet 172/190
+DEBUG:root:Processing tweet 173/190
+DEBUG:root:Processing tweet 174/190
+DEBUG:root:Processing tweet 175/190
+DEBUG:root:Processing tweet 176/190
+DEBUG:root:Processing tweet 177/190
+DEBUG:root:Processing tweet 178/190
+DEBUG:root:Processing tweet 179/190
+DEBUG:root:Processing tweet 180/190
+DEBUG:root:Processing tweet 181/190
+DEBUG:root:Processing tweet 182/190
+DEBUG:root:Processing tweet 183/190
+DEBUG:root:Processing tweet 184/190
+DEBUG:root:Processing tweet 185/190
+DEBUG:root:Processing tweet 186/190
+DEBUG:root:Processing tweet 187/190
+DEBUG:root:Processing tweet 188/190
+DEBUG:root:Processing tweet 189/190
+DEBUG:root:Processing tweet 190/190

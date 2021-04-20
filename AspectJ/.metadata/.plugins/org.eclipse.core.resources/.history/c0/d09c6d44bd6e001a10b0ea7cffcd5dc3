@@ -1,0 +1,17 @@
+package cs550;
+
+public aspect CS550_homework3_problem1 {
+	/**
+	 * 1. An aspect to log each call to the deposit method every time the deposit method is called regardless of the calling context.
+	 */
+	
+	pointcut CallDeposit (Account s, double amount):
+		call(public boolean deposit(double))
+			&& target(s)
+				&& args(amount);
+	
+	before (Account s, double amount):
+		CallDeposit(s, amount){
+		System.out.println("About to deposit");
+	}
+}

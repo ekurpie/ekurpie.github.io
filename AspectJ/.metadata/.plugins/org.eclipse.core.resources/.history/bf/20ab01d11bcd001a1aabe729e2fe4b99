@@ -1,0 +1,13 @@
+package youtube;
+
+public class twozeroone {
+
+	public static void main(String[] args) {
+		User user = new User();
+		user.name = "Evan Kurpiewski";
+		
+		System.out.println(user.name);
+
+	}
+
+}

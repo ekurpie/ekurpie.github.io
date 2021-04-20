@@ -1,0 +1,73 @@
+package triangle;
+
+public class triangle
+{
+	  private int a, b, c;
+
+	  public Triangle(int a, int b, int c) throws InvalidTriangleException
+	  {
+	    this.a = a;
+	    this.b = b;
+	    this.c = c;
+	    if(a==0 || b==0 || c==0)
+	      throw new InvalidTriangleException("Invalid Triangle");
+	    if(a<0 || b<0)
+	      throw new InvalidTriangleException("Invalid Triangle");
+	  }
+	     
+	 
+
+	  public boolean isScalene() 
+	  {
+	   try{
+	    if(a==0 || b==0 || c==0)
+	      throw new InvalidTriangleException("Invalid Scalene Triangle");
+	    if(a<0 && b<0 && c <0)
+	      throw new InvalidTriangleException("Invalid Scalene Triangle");
+	      
+	    if( a != b && b != c)
+	      if(a < (b+c))
+	        if(b < (a+c))
+	          if(c < (a+b))
+	            return true;
+	    }catch(Exception ex){}
+	            
+	    return false;
+	  }
+	  
+	  public boolean isIsosceles()
+	  {
+	   try{
+	    if(a==0 || b==0 || c==0)
+	      throw new InvalidTriangleException("Invalid Isosceles Triangle");
+	    if(a<0 || b<0 || c <0)
+	      throw new InvalidTriangleException("Invalid Isosceles Triangle");
+	      
+	    if(( a == b && a != c) ||(b == c && b != a))
+	      if(a < (b+c))
+	        if(b < (a+c))
+	          if(c > (a+b))
+	            return true;
+	    }catch(Exception ex){}
+	            
+	    return false;
+	  }
+	  
+	  public boolean isEquilateral()
+	  {
+	   try{
+	    if(a==0 || b==0 || c==0)
+	      throw new InvalidTriangleException("Invalid Equilateral Triangle");
+	      
+	    if( a == b && a == c) 
+	      if(a < (a+b))
+	        if(b < (a+c))
+	          if(c < (a+b))
+	            return true;
+	    }catch(Exception ex){}
+	            
+	    return false;
+	  }
+	  
+
+	}//end of class

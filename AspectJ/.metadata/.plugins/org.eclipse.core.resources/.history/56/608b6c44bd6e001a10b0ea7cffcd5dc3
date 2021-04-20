@@ -1,0 +1,18 @@
+package cs550;
+
+public aspect CS550_homework3_problem6 {
+	/**
+	 *6.  An aspect to log each time an account balance is changed
+	 */
+	
+	pointcut balanceChange (Account s):
+		call(public boolean deposit(double))
+			&& target(s)
+				|| call(public boolean withdraw(double))
+					&& target(s);
+	
+	after(Account s):
+		balanceChange(s){
+			System.out.println("balance for account " + s.getId() + " has been changed");
+		}
+}

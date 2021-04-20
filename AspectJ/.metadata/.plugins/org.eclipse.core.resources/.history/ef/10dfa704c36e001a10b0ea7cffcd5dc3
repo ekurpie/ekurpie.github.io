@@ -1,0 +1,55 @@
+package cs550;
+
+public aspect CS550_Assignment3_Problem5 {
+	private int Account.transferCount = 0;
+	public int Account.getTransferCount(){
+		return transferCount;
+	}
+	pointcut bonusTransfer (Account s, double amount):
+		withincode(public void transfer(int,int,double))
+		&& call(public boolean withdraw(double))
+			&& target(s)
+				&& args(amount); 
+	
+	/**
+	 * 
+	 * 5a.
+	 */
+	Boolean around (Account s, double amount):
+		bonusTransfer (s,amount){
+		if(s.getTransferCount() == 0) {
+		System.out.println("Since this is your first transfer the bank will credit your account 50% of the amount you were to transfer instead ");
+		double amount2 = (amount / 2);
+		s.deposit(amount2);
+		s.transferCount ++;
+		}
+		else {
+			s.transferCount ++;
+			System.out.println("Sorry this is the " + s.getTransferCount() + " transfer you have done...No Bonus for you!");
+			proceed(s, amount);
+		}
+		return true;
+	}
+
+
+	/**
+	 * 
+	 * 5b.
+	 */
+	
+	after (Account s, double amount):
+		bonusTransfer(s,amount){
+		if (s.getTransferCount() == 0) {
+			System.out.println("You just made your first transfer....Congratulations! You will be deposited 50% of the amount that you transferred");
+		double amount2 = (amount * 1.5);
+		s.deposit(amount2);
+		s.transferCount ++;
+		}
+		else {
+			s.transferCount ++;
+			System.out.println("You have already gotten your bonus!");
+		}
+	} 
+	
+
+}

@@ -1,0 +1,91 @@
+ <?php
+    $dbc = mysqli_connect('204.11.58.166','MIS565','MIS565??','amruspfw_')
+    or die('Error connecting to MySQL server.');
+​
+​
+    $current_user = 1;
+    // $current_user = $_POST["current_user"];
+​
+    $query = "SELECT StudentFName, 
+                     StudentLName, 
+                     UNCWEmail, 
+                     SmokingStatus,
+                     Wake,
+                     Bedtime,
+                     RoommateInfo
+             FROM Student
+             WHERE StudentID = $current_user";
+             
+    $result = mysqli_query($dbc, $query);
+    
+    //Fetch all rows of result as an associative array
+    if($result){
+        $student = mysqli_fetch_row($result);    
+        mysqli_close($dbc);
+    } 
+    else {
+        echo "<h2>You have reached this page in error</h2>";
+        mysqli_close($dbc);
+        exit;
+    }
+?>
+​
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../css/style1.css">
+    <title>Student Profile</title>
+	<meta charset ="utf-8"> 
+</head>
+<body class="center">
+    <h2><?php echo "$status";?></h2>
+    
+    <h2><?php echo " ".$student[0]." ".$student[1]?></h2>
+	<table class="studentinfo">
+		<tr>
+			<th>First Name: </th>
+            <td><?php echo " ".$student[0]?></td>
+		</tr>	
+        <tr>
+			<th>Last Name: </th>
+            <td><?php echo " ".$student[1]?></td>
+		</tr>	
+        <tr>
+			<th>UNCW Email: </th>
+            <td><?php echo " ".$student[2]?></td>
+		</tr>	
+        <tr>
+			<th>Are you a smoker?: </th>
+            <td>
+                <?php
+                    if($student[3]=1) echo "true"; 
+                    else echo "false";
+                ?>
+            </td>
+		</tr>	
+        <tr>
+			<th>Are you an early riser?: </th>
+            <td>
+                <?php
+                    if($student[4]=1) echo "true"; 
+                    else echo "false";
+                ?>
+            </td>
+		</tr>	
+        <tr>
+			<th>Are you a night owl?: </th>
+            <td>
+                <?php
+                    if($student[5]=1) echo "true"; 
+                    else echo "false";
+                ?>
+            </td>
+		</tr>
+        <tr>
+			<th>Roommate Preferences: </th>
+            <td><?php echo " ".$roommateinfo?></td>
+		</tr>		
+	</table>
+	<button onclick="window.location.href='find_book.php'" style="width:auto;">EDIT</button>
+</body>
+</html>

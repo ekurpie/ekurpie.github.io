@@ -1,0 +1,8 @@
+training_f1,0.8946782816756947
+best_parameters,"{'classify__criterion': 'gini', 'classify__max_features': None, 'classify__splitter': 'random'}"
+test_precision,0.9253403910061552
+test_recall,0.9251336898395722
+test_f1,0.9249085060299229
+test_confusion_matrix,"[[  9   2   0]
+ [  0 223  12]
+ [  0  14 114]]"

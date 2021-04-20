@@ -1,0 +1,5 @@
+package MyDatabase.lib;
+
+public class guest_view {
+
+}

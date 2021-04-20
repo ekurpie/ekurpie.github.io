@@ -1,0 +1,40 @@
+//package youtube;
+//
+//import java.util.Scanner;
+//
+//
+//
+//public class youtube2 {
+//	
+//	public static void main(String[] args) {
+//		//int x = 5; // 2 step process
+//		
+//		int x;  //declare
+//		x = 5;	// initialize
+//		
+//		final int Y = 5;
+//	}
+//
+//}
+
+
+//variable creation
+//1. declare
+//2. initialize
+
+
+package youtube;
+
+import java.util.Scanner;
+
+
+
+public class youtube2 {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String x = scanner.nextLine();
+		System.out.println(x);
+	}
+
+}

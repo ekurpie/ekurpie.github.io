@@ -1,0 +1,96 @@
+package MyDatabase.lib;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JPasswordField;
+import javax.swing.JButton;
+import java.awt.Font;
+
+public class Login_Window {
+
+	private JFrame frame;
+	private JTextField URL;
+	private JTextField Name;
+	private JTextField User;
+	private JPasswordField Pass;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Login_Window window = new Login_Window();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public Login_Window() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(200, 200, 1000, 800);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JLabel lblUrl = new JLabel("URL");
+		lblUrl.setBounds(53, 75, 49, 14);
+		frame.getContentPane().add(lblUrl);
+		
+		URL = new JTextField();
+		URL.setBounds(53, 120, 96, 20);
+		frame.getContentPane().add(URL);
+		URL.setColumns(10);
+		
+		JLabel lblDatabaseName = new JLabel("Database name");
+		lblDatabaseName.setBounds(53, 172, 119, 31);
+		frame.getContentPane().add(lblDatabaseName);
+		
+		Name = new JTextField();
+		Name.setBounds(53, 239, 96, 20);
+		frame.getContentPane().add(Name);
+		Name.setColumns(10);
+		
+		JLabel lblUsername = new JLabel("Username");
+		lblUsername.setBounds(53, 303, 96, 14);
+		frame.getContentPane().add(lblUsername);
+		
+		User = new JTextField();
+		User.setBounds(53, 375, 96, 20);
+		frame.getContentPane().add(User);
+		User.setColumns(10);
+		
+		JLabel lblPassword = new JLabel("Password");
+		lblPassword.setBounds(53, 454, 49, 14);
+		frame.getContentPane().add(lblPassword);
+		
+		Pass = new JPasswordField();
+		Pass.setBounds(53, 517, 96, 20);
+		frame.getContentPane().add(Pass);
+		
+		JButton btnLogin = new JButton("Login");
+		btnLogin.setBounds(555, 429, 89, 23);
+		frame.getContentPane().add(btnLogin);
+		
+		JLabel lblLoginPage = new JLabel("Login Page");
+		lblLoginPage.setFont(new Font("Times New Roman", Font.PLAIN, 30));
+		lblLoginPage.setBounds(536, 114, 166, 135);
+		frame.getContentPane().add(lblLoginPage);
+	}
+}

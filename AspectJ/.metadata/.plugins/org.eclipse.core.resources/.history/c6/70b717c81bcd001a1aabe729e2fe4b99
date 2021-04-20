@@ -1,0 +1,8 @@
+package youtube;
+
+public class User {
+	//members - methods and properties
+	
+	public String name;
+
+}

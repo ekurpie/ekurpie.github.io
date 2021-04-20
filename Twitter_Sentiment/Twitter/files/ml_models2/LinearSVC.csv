@@ -1,0 +1,8 @@
+training_f1,0.9097116581410539
+best_parameters,"{'classify__C': 0.8971499858773554, 'classify__dual': True, 'classify__fit_intercept': True}"
+test_precision,0.9501823815478976
+test_recall,0.9491978609625669
+test_f1,0.9486832596739716
+test_confusion_matrix,"[[  9   2   0]
+ [  0 231   4]
+ [  0  13 115]]"

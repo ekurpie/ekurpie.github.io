@@ -1,0 +1,4 @@
+INFO:root:Start: 1_search_target_tweets.py 
+INFO:root:Processing mode of research: interdisciplinary
+INFO:root:Processing query: interdisciplinary OR #interdisciplinary OR interdisciplinarity OR #interdisciplinarity
+INFO:root:Called function: get_last_tweet_id 

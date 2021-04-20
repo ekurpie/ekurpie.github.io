@@ -1,0 +1,18 @@
+package cs550;
+
+public aspect CS550_homework3_problem2 {
+	/**
+	 *
+	 * 2.  an aspect to log each execution to the withdraw method
+	 * 
+	 */
+	pointcut CallWithdraw (Account s, double amount):
+		execution(public boolean withdraw(double))
+			&& target(s)
+				&& args(amount);
+	
+	before (Account s, double amount):
+		CallWithdraw (s, amount){
+		System.out.println("About to withdraw");
+	}
+}

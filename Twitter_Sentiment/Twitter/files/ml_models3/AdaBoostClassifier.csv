@@ -1,0 +1,8 @@
+training_f1,0.7361573650031515
+best_parameters,"{'classify__algorithm': 'SAMME.R', 'classify__learning_rate': 1, 'classify__n_estimators': 494}"
+test_precision,0.7150905583571643
+test_recall,0.7133333333333334
+test_f1,0.7138841180636787
+test_confusion_matrix,"[[101  63   1]
+ [ 77 569  75]
+ [  5  80  79]]"

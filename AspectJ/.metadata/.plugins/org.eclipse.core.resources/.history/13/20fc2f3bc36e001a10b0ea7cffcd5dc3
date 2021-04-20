@@ -1,0 +1,31 @@
+package cs550;
+
+public aspect CS550_Assignment3_Problem9 {
+	/**
+	 * 9. This is an aspect to do the following: rather than granting a bonus to first time transfer clients, grant a bonus of 20% for every third money transfer
+	 * 
+	 */
+
+	
+	pointcut thirdTransferBonus (Account s, double amount):
+		withincode(public void Bank.transfer (int,int,double))
+			&& call(public boolean deposit(double))
+				&& target(s)
+					&& args(amount);
+	
+	boolean around(Account s, double amount):
+		thirdTransferBonus(s,amount){
+		s.transferCount ++ ;
+		if (s.getTransferCount() % 3 == 0) {
+			System.out.println("this is your third transfer so you get a 20% bonus!");
+			double amount2 = amount * 1.2;
+			System.out.println(s.getId() + " gets a deposit including bonus of ... " + amount2);
+			s.transferCount = 0;
+			return proceed(s,amount2);
+		}
+		else {
+			return proceed(s,amount);
+		}
+	}
+}
+}

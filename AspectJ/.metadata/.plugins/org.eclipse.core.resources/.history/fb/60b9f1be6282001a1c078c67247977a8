@@ -1,0 +1,93 @@
+package MyDatabase.lib;
+
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+import com.mysql.cj.jdbc.CallableStatement;
+import java.sql.Connection;
+
+
+
+
+
+public class New_User {
+
+	private JFrame frame;
+	private JTextField textField;
+	private JTextField textField_1;
+	
+
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					New_User window = new New_User();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public New_User() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 800, 500);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JLabel lblYourUsername = new JLabel("Your Username");
+		lblYourUsername.setFont(new Font("Times New Roman", Font.PLAIN, 30));
+		lblYourUsername.setBounds(275, 23, 256, 91);
+		frame.getContentPane().add(lblYourUsername);
+		
+		textField = new JTextField();
+		textField.setBounds(300, 105, 153, 32);
+		frame.getContentPane().add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblYourPassword = new JLabel("Your Password");
+		lblYourPassword.setFont(new Font("Times New Roman", Font.PLAIN, 30));
+		lblYourPassword.setBounds(275, 174, 212, 82);
+		frame.getContentPane().add(lblYourPassword);
+		
+		textField_1 = new JTextField();
+		textField_1.setBounds(300, 254, 153, 32);
+		frame.getContentPane().add(textField_1);
+		textField_1.setColumns(10);
+		
+		JButton btnRegister = new JButton("Register");
+		btnRegister.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Connection myConn = DriverManager.getConnection("jdbc:mysql://"+"127.0.0.1" +":3306/" + "counterstrike" , "root","Zingbob23");
+				CallableStatement New_User = myConn.prepareCall("{call New_User(?,?)}");
+				
+			}
+		});
+		btnRegister.setBounds(312, 343, 122, 38);
+		frame.getContentPane().add(btnRegister);
+	}
+}

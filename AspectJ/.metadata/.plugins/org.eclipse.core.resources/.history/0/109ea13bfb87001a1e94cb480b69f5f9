@@ -1,0 +1,196 @@
+package MyDatabase.lib;
+
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+public class Login_Window {
+
+	private JFrame frame;
+	private JTextField URL;
+	private JTextField Name;
+	private JTextField User;
+	private JPasswordField Pass;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Login_Window window = new Login_Window();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public Login_Window() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(200, 200, 500, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JLabel lblUrl = new JLabel("URL");
+		lblUrl.setBounds(53, 11, 49, 14);
+		frame.getContentPane().add(lblUrl);
+		
+		URL = new JTextField();
+		URL.setBounds(53, 36, 96, 20);
+		frame.getContentPane().add(URL);
+		URL.setColumns(10);
+		
+		JLabel lblDatabaseName = new JLabel("Database name");
+		lblDatabaseName.setBounds(53, 67, 137, 31);
+		frame.getContentPane().add(lblDatabaseName);
+		
+		Name = new JTextField();
+		Name.setBounds(53, 102, 96, 20);
+		frame.getContentPane().add(Name);
+		Name.setColumns(10);
+		
+		JLabel lblUsername = new JLabel("Username");
+		lblUsername.setBounds(53, 133, 96, 14);
+		frame.getContentPane().add(lblUsername);
+		
+		User = new JTextField();
+		User.setBounds(53, 158, 96, 20);
+		frame.getContentPane().add(User);
+		User.setColumns(10);
+		
+		JLabel lblPassword = new JLabel("Password");
+		lblPassword.setBounds(53, 189, 89, 14);
+		frame.getContentPane().add(lblPassword);
+		
+		Pass = new JPasswordField();
+		Pass.setBounds(53, 214, 96, 20);
+		frame.getContentPane().add(Pass);
+		
+		JButton btnLogin = new JButton("Login");
+		btnLogin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+					String Password = String.copyValueOf(Pass.getPassword());
+					Connection myConn = DriverManager.getConnection("jdbc:mysql://"+"127.0.0.1" +":3306/" + "counterstrike" , "root","Zingbob23");
+					 // Do something with the Connection
+					
+					
+	         		
+	         		PreparedStatement pStmt = myConn.prepareStatement(
+	         	            "select * from userbase Username = ? and Password = ?");
+	         		pStmt.setString(1, User.getText());
+	         		pStmt.setString(2,Password);
+	         		
+	         		ResultSet rset = pStmt.executeQuery();
+	         		String Username2 = rset.getString(1);
+	         		String Password2 = rset.getString(2);
+	         		System.out.println(Username2);
+	         		System.out.println(Password2);
+	         		
+	         		
+					if(User.getText() == "root" & Password == "Zingbob23") {
+						frame.setVisible(false);
+						App_Window.SetValues(URL.getText(),Name.getText(),User.getText(),Password);
+						App_Window.main(null);
+						JOptionPane.showMessageDialog(null, "Successful Connection!");
+					}
+						
+					else if( Username2 == User.getText() & Password2 == Password)
+					{
+		           
+					frame.setVisible(false);
+		            App_Window.SetValues(URL.getText(),Name.getText(),User.getText(),Password);
+		            App_Window.main(null);
+		            JOptionPane.showMessageDialog(null, "Successful Connection!");
+					}
+		            
+		            else {
+		            	JOptionPane.showMessageDialog(null, "Incorrect information!");
+		            	myConn.close();
+		            }
+		            		
+		            
+		            
+		            
+					
+				}
+				catch(Exception A){ 
+					JOptionPane.showMessageDialog(null, "Incorrect information!");
+					System.out.println("Failed connection");
+					System.out.println(e);
+						
+					}
+				}
+			
+	
+		});
+		
+		btnLogin.setBounds(200, 149, 89, 23);
+		frame.getContentPane().add(btnLogin);
+		
+		JLabel lblLoginPage = new JLabel("Login Page");
+		lblLoginPage.setFont(new Font("Times New Roman", Font.PLAIN, 30));
+		lblLoginPage.setBounds(190, 0, 166, 135);
+		frame.getContentPane().add(lblLoginPage);
+		
+		JButton btnGuest = new JButton("Guest");
+		btnGuest.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+				Connection myConn = DriverManager.getConnection("jdbc:mysql://"+"127.0.0.1" +":3306/" + "counterstrike" , "root","Zingbob23");
+				 // Do something with the Connection
+				JOptionPane.showMessageDialog(null, "Successful Connection!");
+	           
+				frame.setVisible(false);
+	            Guest_View.SetValues("127.0.0.1","counterstrike","root","Zingbob23");
+	            Guest_View.main(null);
+				}
+				
+				catch(Exception c) {
+					JOptionPane.showMessageDialog(null, "Incorrect information!");
+					System.out.println("Failed connection");
+					System.out.println(e);
+				}
+				
+			}
+		});
+		btnGuest.setBounds(200, 213, 89, 23);
+		frame.getContentPane().add(btnGuest);
+		
+		JButton btnNewUser = new JButton("New User");
+		btnNewUser.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.setVisible(false);
+				New_User.main(null);
+			}
+		});
+		btnNewUser.setBounds(347, 213, 89, 23);
+		frame.getContentPane().add(btnNewUser);
+	}
+}

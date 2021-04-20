@@ -1,0 +1,20 @@
+package cs550;
+
+public aspect CS550_homework3_problem7 {
+	/**
+	 * 7. as aspect to log each time a specific client has been changed
+	 */
+	
+	pointcut SpecificBalanceChange (Account s):
+		call(public boolean deposit(double))
+			&& target(s)
+				|| call(public boolean withdraw(double))
+					&& target(s);
+	
+	after(Account s):
+		SpecificBalanceChange(s){
+		if (s.getId() ==  1235) {
+			System.out.println("Balance for the Account with ID " + s.getId() + " has been changed.");
+		}
+	}
+}

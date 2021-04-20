@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;one&apos; in &apos;youtube.MySweetProgram2.main(...)&apos; to &apos;you&apos;&#x0D;&#x0A;- Original project: &apos;youtube&apos;&#x0D;&#x0A;- Original element: &apos;youtube.MySweetProgram2.main(String[]).one&apos;&#x0D;&#x0A;- Renamed element: &apos;one&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;one&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;youtube{MySweetProgram2.java[MySweetProgram2~main~\[QString;@one!192!215!198!200!QUsers;!0!false" name="you" references="true" stamp="1596662923613" version="1.0"/>
+</session>

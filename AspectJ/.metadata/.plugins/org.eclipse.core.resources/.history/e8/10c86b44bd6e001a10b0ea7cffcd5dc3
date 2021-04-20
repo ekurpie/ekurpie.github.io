@@ -1,0 +1,22 @@
+package cs550;
+
+public aspect CS550_homework3_problem3 {
+	/**
+	 *3. an aspect to avoid execution of the deleteClient method and to deposit money into the client's account instead
+	 */
+	pointcut cancelDelete (Bank s,int id):
+		execution(public void deleteClient(int))
+			&& target(s)
+				&& args(id);
+			
+			
+	void around(Bank s,int id):
+		cancelDelete(s,id)
+	{
+		System.out.println("cancelled deletion of account");	
+		int x = s.find(id);
+		Account b = ((Account)s.client_database.get(x));
+		System.out.println("depositing $500 dollars into account number " + id);
+		b.balance += 500;
+	}
+}

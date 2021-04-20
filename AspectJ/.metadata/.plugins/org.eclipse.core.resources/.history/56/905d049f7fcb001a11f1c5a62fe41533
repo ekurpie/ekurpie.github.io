@@ -1,0 +1,18 @@
+package youtube;
+
+public class MySweetProgram {
+
+	public static void main(String[] args) { //methods
+		System.out.println("hello there!");
+		
+		var x = new MySweetPorgram();
+		x.tacos();
+
+	}
+	
+	public void tacos() {
+		System.out.println("Tacos!");
+	}
+	String x = new String("hjello"; //property -- stores a value
+
+}

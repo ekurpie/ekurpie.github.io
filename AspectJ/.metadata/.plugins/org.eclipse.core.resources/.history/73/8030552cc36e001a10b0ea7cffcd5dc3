@@ -1,0 +1,20 @@
+package cs550;
+
+public aspect CS550_Assignment3_Problem7 {
+//	/**
+//	 * 7. as aspect to log each time a specific client has been changed
+//	 */
+//	pointcut balanceChange (Account s):
+//	within(Account)
+//		&& set(private double balance)
+//			&& target(s);
+//			
+//
+//	after(Account s):
+//		balanceChange(s){
+//		if (s.getId() == 1235){
+//			System.out.println("the account balance for account " + s.getId() + " has been changed");
+//		}
+//	}
+//
+}

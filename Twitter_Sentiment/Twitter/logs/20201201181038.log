@@ -1,0 +1,78 @@
+INFO:root:Start: 1_search_target_tweets.py 
+INFO:root:Created directory: files\UNCW2\UNCW
+INFO:root:Processing mode of research: UNCW
+INFO:root:Processing query: @UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw
+INFO:root:Called function: get_last_tweet_id 
+DEBUG:root:No tweets found, returning None as latest ID
+INFO:root:Called function: search_tweets_from_API 
+INFO:root:Initialize Twitter
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "POST /oauth2/token HTTP/1.1" 200 155
+INFO:root:Called function: Twitter.connect_to_API 
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&tweet_mode=extended HTTP/1.1" 200 540234
+DEBUG:root:Downloaded number of tweets: 100
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1333585139671179264', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1333585139671179264&tweet_mode=extended HTTP/1.1" 200 491043
+DEBUG:root:Downloaded number of tweets: 200
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1333382553223499776', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1333382553223499776&tweet_mode=extended HTTP/1.1" 200 552967
+DEBUG:root:Downloaded number of tweets: 300
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1332809660999593983', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1332809660999593983&tweet_mode=extended HTTP/1.1" 200 509697
+DEBUG:root:Downloaded number of tweets: 400
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1332746579002884096', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1332746579002884096&tweet_mode=extended HTTP/1.1" 200 517624
+DEBUG:root:Downloaded number of tweets: 500
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1332493036979367939', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1332493036979367939&tweet_mode=extended HTTP/1.1" 200 470843
+DEBUG:root:Downloaded number of tweets: 600
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1332137169046040575', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1332137169046040575&tweet_mode=extended HTTP/1.1" 200 583743
+DEBUG:root:Downloaded number of tweets: 700
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1331800253402652671', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1331800253402652671&tweet_mode=extended HTTP/1.1" 200 543063
+DEBUG:root:Downloaded number of tweets: 800
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1331722292217475078', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1331722292217475078&tweet_mode=extended HTTP/1.1" 200 448028
+DEBUG:root:Downloaded number of tweets: 900
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1331674015648407553', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1331674015648407553&tweet_mode=extended HTTP/1.1" 200 481393
+DEBUG:root:Downloaded number of tweets: 1000
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1331591511172128767', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1331591511172128767&tweet_mode=extended HTTP/1.1" 200 521674
+DEBUG:root:Downloaded number of tweets: 1100
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1331213292526850049', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1331213292526850049&tweet_mode=extended HTTP/1.1" 200 456340
+DEBUG:root:Downloaded number of tweets: 1193
+INFO:root:Called function: Twitter.search_tweets 
+DEBUG:tweepy.binder:PARAMS: {'q': b'@UNCW OR #UNCW OR UNCW OR @uncw OR #uncw OR uncw', 'count': b'100', 'max_id': b'1330569744768851973', 'tweet_mode': b'extended'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twitter.com:443
+DEBUG:urllib3.connectionpool:https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=%40UNCW+OR+%23UNCW+OR+UNCW+OR+%40uncw+OR+%23uncw+OR+uncw&count=100&max_id=1330569744768851973&tweet_mode=extended HTTP/1.1" 200 375
+DEBUG:root:No more tweets found, exiting...
+INFO:root:Finished collecting UNCW tweets
+

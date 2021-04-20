@@ -1,0 +1,63 @@
+package youtube;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class MySweetProgram2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		
+//		Users me = new Users();
+//		Users you = new Users();
+//		
+//		me.setFirstName("Evan"); 
+//		me.setLastName("Kurpiewski");
+//		
+//		you.setFirstName("Caleb");
+//		you.setLastName("Cower");
+//		
+//		String message = you.output();
+//		System.out.println(message);
+//		
+//		System.out.println(you.fullName());
+		
+		List<Users> users = new ArrayList<Users>();
+		
+		String[] firstNames = {"Caleb", "John", "Fred", "Sandy"};
+		String[] lastNames = {"Curry","Ginger", "Estranged", "Vag"};
+		
+		for(int i = 0; i < firstNames.length; i++) {
+			Users u = new Users();
+			u.setFirstName(firstNames[i]);
+			u.setLastName(lastNames[i]);
+			users.add(u);
+			System.out.println(u);
+		}
+		
+//		for(Users u : users) {
+//			System.out.println(u.getFirstName() + " " + u.getLastName());
+//			Users.printUser(u);
+		
+		Users search = new Users();
+		
+		search.setFirstName("Caleb");
+		search.setLastName("Curryy");
+				
+		
+		Users.printUsers(users);
+		System.out.println(Users.searchList(users, "fred", "estranged"));
+		Users found = Users.findUser(users, search);
+		
+		System.out.println(found);
+		
+		}
+		
+		
+		
+		
+		
+	
+	
+
+}

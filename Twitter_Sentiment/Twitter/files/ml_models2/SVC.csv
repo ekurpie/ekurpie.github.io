@@ -1,0 +1,8 @@
+training_f1,0.9116257871675503
+best_parameters,"{'classify__C': 3.0021054257336908, 'classify__gamma': 0.45975139448589625, 'classify__kernel': 'rbf'}"
+test_precision,0.9577495733072718
+test_recall,0.9572192513368984
+test_f1,0.9568606716935537
+test_confusion_matrix,"[[  9   2   0]
+ [  0 231   4]
+ [  0  10 118]]"

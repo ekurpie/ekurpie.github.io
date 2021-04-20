@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+  <title>My Requests</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+  <!-- Main stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+
+  <!-- Add custom styles for this page here -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <?php 
+    include "includes/student_nav.php";
+  ?>
+
+  <!-- Header -->
+  <header class="bg-info py-5 mb-5">
+    <div class="container h-50" style="max-height:10%">
+      <div class="row h-50 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">
+			  M A N A G E  Requests</h1>
+          <p class="lead mb-5 text-white-50">Manage your sent and received roommate requests!.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+  <ul class="nav nav-tabs nav-centered">
+    <li class="active" style="width:50%"><a data-toggle="tab" href="#sent">Sent Requests</a></li>
+    <li style="width:50%"><a data-toggle="tab" href="#received">Received Requests</a></li>
+  </ul>
+  
+  <!-- SENT -->
+  <div class="tab-content">
+    <div id="sent" class="tab-pane fade in active">
+      <p> </p>
+      <p>These are my sent requests</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Smoker?</th>
+            <th>Early Riser?</th>
+            <th>Night Owl?</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Kinsley</td>
+            <td>Sigmund</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              <button type="button" class="btn btn-info" style="width: auto;">Learn More</button>
+              <button type="button" class="btn btn-danger"  style="width: auto;">Delete</button>
+            </td>     
+          </tr>
+          <tr>
+            <td>Evan</td>
+            <td>Kurpiewski</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>
+              <button type="button" class="btn btn-info" style="width: auto;">Learn More</button>
+              <button type="button" class="btn btn-danger"  style="width: auto;">Delete</button>
+            </td>     
+          </tr>
+          <tr>
+            <td>Gray</td>
+            <td>LeCompote</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              <button type="button" class="btn btn-info" style="width: auto;">Learn More</button>
+              <button type="button" class="btn btn-danger"  style="width: auto;">Delete</button>
+            </td>     
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- RECEIVED -->
+    <div id="received" class="tab-pane fade">
+      <p> </p>
+      <p>These are my received requests</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Smoker?</th>
+            <th>Early Riser?</th>
+            <th>Night Owl?</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              <button type="button" class="btn btn-info" style="width: auto;">Learn More</button>
+              <button type="button" class="btn btn-success" style="width: auto;">Accept</button>
+              <button type="button" class="btn btn-danger"  style="width: auto;">Reject</button>
+            </td>     
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              <button type="button" class="btn btn-info" style="width: auto;">Learn More</button>
+              <button type="button" class="btn btn-success" style="width: auto;">Accept</button>
+              <button type="button" class="btn btn-danger"  style="width: auto;">Reject</button>
+            </td>  
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              <button type="button" class="btn btn-info" style="width: auto;">Learn More</button>
+              <button type="button" class="btn btn-success" style="width: auto;">Accept</button>
+              <button type="button" class="btn btn-danger"  style="width: auto;">Reject</button>
+            </td>  
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  </div>
+</script>
+
+	 <!-- Footer -->
+  <?php include "includes/footer.php"
+  ?>
+
+</body>
+</html>

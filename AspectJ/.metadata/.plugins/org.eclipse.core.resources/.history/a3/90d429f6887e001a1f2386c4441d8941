@@ -1,0 +1,26 @@
+package Testing;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Assignment4_bubble_sort_cases {
+
+	@Test
+	void test() {
+		sortingComparison test = new sortingComparison();
+		int arr[] = {23,154,34,12,765};
+		int arr2[] = {12,23,34,154,765};
+		test.bubbleSort(arr);
+		assertArrayEquals(arr,arr2);
+	}
+	
+	@test
+	void test2() {
+		sortingComparison test2 = new sortingComparison();
+		int arr3[] = {};
+		int arr4[]= {};
+		test2.bubbleSort(arr3);
+		assertArrayEquals(arr3,arr4);
+	}
+
+}

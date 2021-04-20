@@ -1,0 +1,14 @@
+package youtube;
+
+public class onetwentyone {
+	
+	public static void main(String[] args) {
+//		System.out.println(Integer.MAX_VALUE);
+//		System.out.println(Integer.BYTES);
+//		
+		
+		double x = 5 / 2;
+		System.out.println(x);
+	}
+
+}

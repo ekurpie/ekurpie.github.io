@@ -1,0 +1,1016 @@
+INFO:root:Start: 3_preprocess_target_tweets.py 
+DEBUG:root:Processing tweet 1/812
+DEBUG:root:Processing tweet 2/812
+DEBUG:root:Processing tweet 3/812
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 4/812
+DEBUG:root:Processing tweet 5/812
+DEBUG:root:Processing tweet 6/812
+DEBUG:root:Processing tweet 7/812
+DEBUG:root:Processing tweet 8/812
+DEBUG:root:Processing tweet 9/812
+DEBUG:root:Processing tweet 10/812
+DEBUG:root:Processing tweet 11/812
+DEBUG:root:Processing tweet 12/812
+DEBUG:root:Processing tweet 13/812
+DEBUG:root:Processing tweet 14/812
+DEBUG:root:Processing tweet 15/812
+DEBUG:root:Processing tweet 16/812
+DEBUG:root:Processing tweet 17/812
+DEBUG:root:Processing tweet 18/812
+DEBUG:root:Processing tweet 19/812
+DEBUG:root:Processing tweet 20/812
+DEBUG:root:Processing tweet 21/812
+DEBUG:root:Processing tweet 22/812
+DEBUG:root:Processing tweet 23/812
+DEBUG:root:Processing tweet 24/812
+INFO:root:Academic word match in bio: toxicologist
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 25/812
+DEBUG:root:Processing tweet 26/812
+INFO:root:Academic word match in bio: actuary
+INFO:root:Academic word match in bio: research
+INFO:root:Academic word match in bio: phd 
+DEBUG:root:Processing tweet 27/812
+DEBUG:root:Processing tweet 28/812
+DEBUG:root:Processing tweet 29/812
+DEBUG:root:Processing tweet 30/812
+DEBUG:root:Processing tweet 31/812
+DEBUG:root:Processing tweet 32/812
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 33/812
+DEBUG:root:Processing tweet 34/812
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 35/812
+DEBUG:root:Processing tweet 36/812
+DEBUG:root:Processing tweet 37/812
+DEBUG:root:Processing tweet 38/812
+DEBUG:root:Processing tweet 39/812
+DEBUG:root:Processing tweet 40/812
+DEBUG:root:Processing tweet 41/812
+DEBUG:root:Processing tweet 42/812
+DEBUG:root:Processing tweet 43/812
+DEBUG:root:Processing tweet 44/812
+DEBUG:root:Processing tweet 45/812
+DEBUG:root:Processing tweet 46/812
+DEBUG:root:Processing tweet 47/812
+DEBUG:root:Processing tweet 48/812
+DEBUG:root:Processing tweet 49/812
+DEBUG:root:Processing tweet 50/812
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 51/812
+DEBUG:root:Processing tweet 52/812
+DEBUG:root:Processing tweet 53/812
+DEBUG:root:Processing tweet 54/812
+INFO:root:Academic word match in bio: scholar
+DEBUG:root:Processing tweet 55/812
+DEBUG:root:Processing tweet 56/812
+DEBUG:root:Processing tweet 57/812
+DEBUG:root:Processing tweet 58/812
+DEBUG:root:Processing tweet 59/812
+DEBUG:root:Processing tweet 60/812
+DEBUG:root:Processing tweet 61/812
+DEBUG:root:Processing tweet 62/812
+DEBUG:root:Processing tweet 63/812
+DEBUG:root:Processing tweet 64/812
+DEBUG:root:Processing tweet 65/812
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 66/812
+DEBUG:root:Processing tweet 67/812
+DEBUG:root:Processing tweet 68/812
+DEBUG:root:Processing tweet 69/812
+DEBUG:root:Processing tweet 70/812
+DEBUG:root:Processing tweet 71/812
+DEBUG:root:Processing tweet 72/812
+DEBUG:root:Processing tweet 73/812
+DEBUG:root:Processing tweet 74/812
+DEBUG:root:Processing tweet 75/812
+DEBUG:root:Processing tweet 76/812
+DEBUG:root:Processing tweet 77/812
+DEBUG:root:Processing tweet 78/812
+DEBUG:root:Processing tweet 79/812
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 80/812
+DEBUG:root:Processing tweet 81/812
+DEBUG:root:Processing tweet 82/812
+DEBUG:root:Processing tweet 83/812
+DEBUG:root:Processing tweet 84/812
+DEBUG:root:Processing tweet 85/812
+DEBUG:root:Processing tweet 86/812
+DEBUG:root:Processing tweet 87/812
+DEBUG:root:Processing tweet 88/812
+DEBUG:root:Processing tweet 89/812
+DEBUG:root:Processing tweet 90/812
+DEBUG:root:Processing tweet 91/812
+DEBUG:root:Processing tweet 92/812
+DEBUG:root:Processing tweet 93/812
+DEBUG:root:Processing tweet 94/812
+DEBUG:root:Processing tweet 95/812
+DEBUG:root:Processing tweet 96/812
+DEBUG:root:Processing tweet 97/812
+DEBUG:root:Processing tweet 98/812
+DEBUG:root:Processing tweet 99/812
+INFO:root:Academic word match in bio: higher education
+INFO:root:Academic word match in bio: college
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: undergraduate
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 100/812
+DEBUG:root:Processing tweet 101/812
+DEBUG:root:Processing tweet 102/812
+DEBUG:root:Processing tweet 103/812
+INFO:root:Academic word match in bio: university
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 104/812
+INFO:root:Academic word match in bio: higher education
+INFO:root:Academic word match in bio: faculty
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 105/812
+DEBUG:root:Processing tweet 106/812
+DEBUG:root:Processing tweet 107/812
+DEBUG:root:Processing tweet 108/812
+DEBUG:root:Processing tweet 109/812
+DEBUG:root:Processing tweet 110/812
+DEBUG:root:Processing tweet 111/812
+DEBUG:root:Processing tweet 112/812
+DEBUG:root:Processing tweet 113/812
+DEBUG:root:Processing tweet 114/812
+DEBUG:root:Processing tweet 115/812
+DEBUG:root:Processing tweet 116/812
+DEBUG:root:Processing tweet 117/812
+DEBUG:root:Processing tweet 118/812
+DEBUG:root:Processing tweet 119/812
+DEBUG:root:Processing tweet 120/812
+DEBUG:root:Processing tweet 121/812
+DEBUG:root:Processing tweet 122/812
+DEBUG:root:Processing tweet 123/812
+DEBUG:root:Processing tweet 124/812
+DEBUG:root:Processing tweet 125/812
+DEBUG:root:Processing tweet 126/812
+DEBUG:root:Processing tweet 127/812
+DEBUG:root:Processing tweet 128/812
+DEBUG:root:Processing tweet 129/812
+DEBUG:root:Processing tweet 130/812
+DEBUG:root:Processing tweet 131/812
+DEBUG:root:Processing tweet 132/812
+DEBUG:root:Processing tweet 133/812
+DEBUG:root:Processing tweet 134/812
+DEBUG:root:Processing tweet 135/812
+DEBUG:root:Processing tweet 136/812
+INFO:root:Academic word match in bio:  prof 
+DEBUG:root:Processing tweet 137/812
+DEBUG:root:Processing tweet 138/812
+DEBUG:root:Processing tweet 139/812
+DEBUG:root:Processing tweet 140/812
+DEBUG:root:Processing tweet 141/812
+DEBUG:root:Processing tweet 142/812
+DEBUG:root:Processing tweet 143/812
+DEBUG:root:Processing tweet 144/812
+DEBUG:root:Processing tweet 145/812
+DEBUG:root:Processing tweet 146/812
+DEBUG:root:Processing tweet 147/812
+DEBUG:root:Processing tweet 148/812
+DEBUG:root:Processing tweet 149/812
+DEBUG:root:Processing tweet 150/812
+DEBUG:root:Processing tweet 151/812
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 152/812
+DEBUG:root:Processing tweet 153/812
+DEBUG:root:Processing tweet 154/812
+DEBUG:root:Processing tweet 155/812
+DEBUG:root:Processing tweet 156/812
+DEBUG:root:Processing tweet 157/812
+DEBUG:root:Processing tweet 158/812
+DEBUG:root:Processing tweet 159/812
+DEBUG:root:Processing tweet 160/812
+DEBUG:root:Processing tweet 161/812
+DEBUG:root:Processing tweet 162/812
+DEBUG:root:Processing tweet 163/812
+DEBUG:root:Processing tweet 164/812
+DEBUG:root:Processing tweet 165/812
+DEBUG:root:Processing tweet 166/812
+DEBUG:root:Processing tweet 167/812
+DEBUG:root:Processing tweet 168/812
+DEBUG:root:Processing tweet 169/812
+DEBUG:root:Processing tweet 170/812
+DEBUG:root:Processing tweet 171/812
+DEBUG:root:Processing tweet 172/812
+DEBUG:root:Processing tweet 173/812
+DEBUG:root:Processing tweet 174/812
+DEBUG:root:Processing tweet 175/812
+DEBUG:root:Processing tweet 176/812
+DEBUG:root:Processing tweet 177/812
+INFO:root:Academic word match in bio: studies
+DEBUG:root:Processing tweet 178/812
+DEBUG:root:Processing tweet 179/812
+DEBUG:root:Processing tweet 180/812
+DEBUG:root:Processing tweet 181/812
+DEBUG:root:Processing tweet 182/812
+DEBUG:root:Processing tweet 183/812
+DEBUG:root:Processing tweet 184/812
+DEBUG:root:Processing tweet 185/812
+DEBUG:root:Processing tweet 186/812
+DEBUG:root:Processing tweet 187/812
+DEBUG:root:Processing tweet 188/812
+DEBUG:root:Processing tweet 189/812
+DEBUG:root:Processing tweet 190/812
+DEBUG:root:Processing tweet 191/812
+DEBUG:root:Processing tweet 192/812
+DEBUG:root:Processing tweet 193/812
+DEBUG:root:Processing tweet 194/812
+DEBUG:root:Processing tweet 195/812
+DEBUG:root:Processing tweet 196/812
+DEBUG:root:Processing tweet 197/812
+DEBUG:root:Processing tweet 198/812
+DEBUG:root:Processing tweet 199/812
+DEBUG:root:Processing tweet 200/812
+DEBUG:root:Processing tweet 201/812
+DEBUG:root:Processing tweet 202/812
+DEBUG:root:Processing tweet 203/812
+DEBUG:root:Processing tweet 204/812
+DEBUG:root:Processing tweet 205/812
+DEBUG:root:Processing tweet 206/812
+DEBUG:root:Processing tweet 207/812
+DEBUG:root:Processing tweet 208/812
+DEBUG:root:Processing tweet 209/812
+DEBUG:root:Processing tweet 210/812
+DEBUG:root:Processing tweet 211/812
+DEBUG:root:Processing tweet 212/812
+DEBUG:root:Processing tweet 213/812
+DEBUG:root:Processing tweet 214/812
+DEBUG:root:Processing tweet 215/812
+DEBUG:root:Processing tweet 216/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 217/812
+DEBUG:root:Processing tweet 218/812
+DEBUG:root:Processing tweet 219/812
+DEBUG:root:Processing tweet 220/812
+DEBUG:root:Processing tweet 221/812
+DEBUG:root:Processing tweet 222/812
+DEBUG:root:Processing tweet 223/812
+DEBUG:root:Processing tweet 224/812
+DEBUG:root:Processing tweet 225/812
+DEBUG:root:Processing tweet 226/812
+DEBUG:root:Processing tweet 227/812
+DEBUG:root:Processing tweet 228/812
+DEBUG:root:Processing tweet 229/812
+DEBUG:root:Processing tweet 230/812
+DEBUG:root:Processing tweet 231/812
+DEBUG:root:Processing tweet 232/812
+DEBUG:root:Processing tweet 233/812
+DEBUG:root:Processing tweet 234/812
+DEBUG:root:Processing tweet 235/812
+DEBUG:root:Processing tweet 236/812
+DEBUG:root:Processing tweet 237/812
+DEBUG:root:Processing tweet 238/812
+DEBUG:root:Processing tweet 239/812
+DEBUG:root:Processing tweet 240/812
+DEBUG:root:Processing tweet 241/812
+DEBUG:root:Processing tweet 242/812
+DEBUG:root:Processing tweet 243/812
+DEBUG:root:Processing tweet 244/812
+DEBUG:root:Processing tweet 245/812
+DEBUG:root:Processing tweet 246/812
+DEBUG:root:Processing tweet 247/812
+DEBUG:root:Processing tweet 248/812
+DEBUG:root:Processing tweet 249/812
+DEBUG:root:Processing tweet 250/812
+DEBUG:root:Processing tweet 251/812
+DEBUG:root:Processing tweet 252/812
+DEBUG:root:Processing tweet 253/812
+DEBUG:root:Processing tweet 254/812
+DEBUG:root:Processing tweet 255/812
+DEBUG:root:Processing tweet 256/812
+DEBUG:root:Processing tweet 257/812
+DEBUG:root:Processing tweet 258/812
+DEBUG:root:Processing tweet 259/812
+DEBUG:root:Processing tweet 260/812
+DEBUG:root:Processing tweet 261/812
+DEBUG:root:Processing tweet 262/812
+DEBUG:root:Processing tweet 263/812
+DEBUG:root:Processing tweet 264/812
+DEBUG:root:Processing tweet 265/812
+DEBUG:root:Processing tweet 266/812
+DEBUG:root:Processing tweet 267/812
+DEBUG:root:Processing tweet 268/812
+DEBUG:root:Processing tweet 269/812
+DEBUG:root:Processing tweet 270/812
+DEBUG:root:Processing tweet 271/812
+DEBUG:root:Processing tweet 272/812
+DEBUG:root:Processing tweet 273/812
+DEBUG:root:Processing tweet 274/812
+DEBUG:root:Processing tweet 275/812
+DEBUG:root:Processing tweet 276/812
+DEBUG:root:Processing tweet 277/812
+DEBUG:root:Processing tweet 278/812
+DEBUG:root:Processing tweet 279/812
+DEBUG:root:Processing tweet 280/812
+DEBUG:root:Processing tweet 281/812
+DEBUG:root:Processing tweet 282/812
+DEBUG:root:Processing tweet 283/812
+DEBUG:root:Processing tweet 284/812
+DEBUG:root:Processing tweet 285/812
+DEBUG:root:Processing tweet 286/812
+DEBUG:root:Processing tweet 287/812
+DEBUG:root:Processing tweet 288/812
+DEBUG:root:Processing tweet 289/812
+DEBUG:root:Processing tweet 290/812
+DEBUG:root:Processing tweet 291/812
+DEBUG:root:Processing tweet 292/812
+DEBUG:root:Processing tweet 293/812
+DEBUG:root:Processing tweet 294/812
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 295/812
+DEBUG:root:Processing tweet 296/812
+DEBUG:root:Processing tweet 297/812
+DEBUG:root:Processing tweet 298/812
+DEBUG:root:Processing tweet 299/812
+DEBUG:root:Processing tweet 300/812
+DEBUG:root:Processing tweet 301/812
+DEBUG:root:Processing tweet 302/812
+DEBUG:root:Processing tweet 303/812
+DEBUG:root:Processing tweet 304/812
+DEBUG:root:Processing tweet 305/812
+DEBUG:root:Processing tweet 306/812
+DEBUG:root:Processing tweet 307/812
+DEBUG:root:Processing tweet 308/812
+DEBUG:root:Processing tweet 309/812
+DEBUG:root:Processing tweet 310/812
+DEBUG:root:Processing tweet 311/812
+DEBUG:root:Processing tweet 312/812
+DEBUG:root:Processing tweet 313/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 314/812
+DEBUG:root:Processing tweet 315/812
+DEBUG:root:Processing tweet 316/812
+DEBUG:root:Processing tweet 317/812
+DEBUG:root:Processing tweet 318/812
+DEBUG:root:Processing tweet 319/812
+DEBUG:root:Processing tweet 320/812
+DEBUG:root:Processing tweet 321/812
+DEBUG:root:Processing tweet 322/812
+DEBUG:root:Processing tweet 323/812
+DEBUG:root:Processing tweet 324/812
+INFO:root:Academic word match in bio: ecologist
+DEBUG:root:Processing tweet 325/812
+DEBUG:root:Processing tweet 326/812
+DEBUG:root:Processing tweet 327/812
+DEBUG:root:Processing tweet 328/812
+DEBUG:root:Processing tweet 329/812
+DEBUG:root:Processing tweet 330/812
+DEBUG:root:Processing tweet 331/812
+DEBUG:root:Processing tweet 332/812
+DEBUG:root:Processing tweet 333/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 334/812
+INFO:root:Academic word match in bio: ecologist
+INFO:root:Academic word match in bio: scientist
+DEBUG:root:Processing tweet 335/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 336/812
+DEBUG:root:Processing tweet 337/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 338/812
+DEBUG:root:Processing tweet 339/812
+DEBUG:root:Processing tweet 340/812
+DEBUG:root:Processing tweet 341/812
+DEBUG:root:Processing tweet 342/812
+DEBUG:root:Processing tweet 343/812
+DEBUG:root:Processing tweet 344/812
+INFO:root:Academic word match in bio: university
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 345/812
+DEBUG:root:Processing tweet 346/812
+INFO:root:Academic word match in bio: higher education
+INFO:root:Academic word match in bio: college
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: undergraduate
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 347/812
+DEBUG:root:Processing tweet 348/812
+DEBUG:root:Processing tweet 349/812
+DEBUG:root:Processing tweet 350/812
+DEBUG:root:Processing tweet 351/812
+DEBUG:root:Processing tweet 352/812
+DEBUG:root:Processing tweet 353/812
+DEBUG:root:Processing tweet 354/812
+DEBUG:root:Processing tweet 355/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 356/812
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 357/812
+DEBUG:root:Processing tweet 358/812
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 359/812
+DEBUG:root:Processing tweet 360/812
+DEBUG:root:Processing tweet 361/812
+DEBUG:root:Processing tweet 362/812
+DEBUG:root:Processing tweet 363/812
+DEBUG:root:Processing tweet 364/812
+DEBUG:root:Processing tweet 365/812
+DEBUG:root:Processing tweet 366/812
+DEBUG:root:Processing tweet 367/812
+DEBUG:root:Processing tweet 368/812
+DEBUG:root:Processing tweet 369/812
+DEBUG:root:Processing tweet 370/812
+DEBUG:root:Processing tweet 371/812
+DEBUG:root:Processing tweet 372/812
+DEBUG:root:Processing tweet 373/812
+DEBUG:root:Processing tweet 374/812
+DEBUG:root:Processing tweet 375/812
+DEBUG:root:Processing tweet 376/812
+DEBUG:root:Processing tweet 377/812
+DEBUG:root:Processing tweet 378/812
+DEBUG:root:Processing tweet 379/812
+DEBUG:root:Processing tweet 380/812
+DEBUG:root:Processing tweet 381/812
+INFO:root:Academic word match in bio:  prof 
+DEBUG:root:Processing tweet 382/812
+DEBUG:root:Processing tweet 383/812
+DEBUG:root:Processing tweet 384/812
+DEBUG:root:Processing tweet 385/812
+DEBUG:root:Processing tweet 386/812
+DEBUG:root:Processing tweet 387/812
+DEBUG:root:Processing tweet 388/812
+DEBUG:root:Processing tweet 389/812
+DEBUG:root:Processing tweet 390/812
+DEBUG:root:Processing tweet 391/812
+DEBUG:root:Processing tweet 392/812
+DEBUG:root:Processing tweet 393/812
+DEBUG:root:Processing tweet 394/812
+DEBUG:root:Processing tweet 395/812
+DEBUG:root:Processing tweet 396/812
+DEBUG:root:Processing tweet 397/812
+DEBUG:root:Processing tweet 398/812
+DEBUG:root:Processing tweet 399/812
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 400/812
+DEBUG:root:Processing tweet 401/812
+DEBUG:root:Processing tweet 402/812
+DEBUG:root:Processing tweet 403/812
+DEBUG:root:Processing tweet 404/812
+DEBUG:root:Processing tweet 405/812
+INFO:root:Academic word match in bio: professor
+INFO:root:Academic word match in bio: engineer
+DEBUG:root:Processing tweet 406/812
+DEBUG:root:Processing tweet 407/812
+DEBUG:root:Processing tweet 408/812
+DEBUG:root:Processing tweet 409/812
+DEBUG:root:Processing tweet 410/812
+DEBUG:root:Processing tweet 411/812
+DEBUG:root:Processing tweet 412/812
+DEBUG:root:Processing tweet 413/812
+DEBUG:root:Processing tweet 414/812
+DEBUG:root:Processing tweet 415/812
+DEBUG:root:Processing tweet 416/812
+DEBUG:root:Processing tweet 417/812
+DEBUG:root:Processing tweet 418/812
+DEBUG:root:Processing tweet 419/812
+INFO:root:Academic word match in bio: scholar
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 420/812
+DEBUG:root:Processing tweet 421/812
+DEBUG:root:Processing tweet 422/812
+DEBUG:root:Processing tweet 423/812
+DEBUG:root:Processing tweet 424/812
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 425/812
+DEBUG:root:Processing tweet 426/812
+DEBUG:root:Processing tweet 427/812
+DEBUG:root:Processing tweet 428/812
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 429/812
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 430/812
+DEBUG:root:Processing tweet 431/812
+DEBUG:root:Processing tweet 432/812
+DEBUG:root:Processing tweet 433/812
+DEBUG:root:Processing tweet 434/812
+DEBUG:root:Processing tweet 435/812
+DEBUG:root:Processing tweet 436/812
+DEBUG:root:Processing tweet 437/812
+DEBUG:root:Processing tweet 438/812
+DEBUG:root:Processing tweet 439/812
+DEBUG:root:Processing tweet 440/812
+DEBUG:root:Processing tweet 441/812
+DEBUG:root:Processing tweet 442/812
+DEBUG:root:Processing tweet 443/812
+DEBUG:root:Processing tweet 444/812
+DEBUG:root:Processing tweet 445/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 446/812
+DEBUG:root:Processing tweet 447/812
+DEBUG:root:Processing tweet 448/812
+DEBUG:root:Processing tweet 449/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 450/812
+INFO:root:Academic word match in bio:  prof 
+DEBUG:root:Processing tweet 451/812
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 452/812
+DEBUG:root:Processing tweet 453/812
+DEBUG:root:Processing tweet 454/812
+DEBUG:root:Processing tweet 455/812
+DEBUG:root:Processing tweet 456/812
+DEBUG:root:Processing tweet 457/812
+DEBUG:root:Processing tweet 458/812
+DEBUG:root:Processing tweet 459/812
+DEBUG:root:Processing tweet 460/812
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 461/812
+DEBUG:root:Processing tweet 462/812
+DEBUG:root:Processing tweet 463/812
+DEBUG:root:Processing tweet 464/812
+DEBUG:root:Processing tweet 465/812
+DEBUG:root:Processing tweet 466/812
+DEBUG:root:Processing tweet 467/812
+DEBUG:root:Processing tweet 468/812
+DEBUG:root:Processing tweet 469/812
+DEBUG:root:Processing tweet 470/812
+DEBUG:root:Processing tweet 471/812
+DEBUG:root:Processing tweet 472/812
+DEBUG:root:Processing tweet 473/812
+DEBUG:root:Processing tweet 474/812
+DEBUG:root:Processing tweet 475/812
+DEBUG:root:Processing tweet 476/812
+DEBUG:root:Processing tweet 477/812
+DEBUG:root:Processing tweet 478/812
+DEBUG:root:Processing tweet 479/812
+DEBUG:root:Processing tweet 480/812
+DEBUG:root:Processing tweet 481/812
+DEBUG:root:Processing tweet 482/812
+DEBUG:root:Processing tweet 483/812
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 484/812
+INFO:root:Academic word match in bio: research
+DEBUG:root:Processing tweet 485/812
+DEBUG:root:Processing tweet 486/812
+DEBUG:root:Processing tweet 487/812
+DEBUG:root:Processing tweet 488/812
+DEBUG:root:Processing tweet 489/812
+DEBUG:root:Processing tweet 490/812
+DEBUG:root:Processing tweet 491/812
+DEBUG:root:Processing tweet 492/812
+DEBUG:root:Processing tweet 493/812
+DEBUG:root:Processing tweet 494/812
+INFO:root:Academic word match in bio: studies
+DEBUG:root:Processing tweet 495/812
+DEBUG:root:Processing tweet 496/812
+DEBUG:root:Processing tweet 497/812
+DEBUG:root:Processing tweet 498/812
+DEBUG:root:Processing tweet 499/812
+DEBUG:root:Processing tweet 500/812
+DEBUG:root:Processing tweet 501/812
+DEBUG:root:Processing tweet 502/812
+DEBUG:root:Processing tweet 503/812
+DEBUG:root:Processing tweet 504/812
+DEBUG:root:Processing tweet 505/812
+DEBUG:root:Processing tweet 506/812
+DEBUG:root:Processing tweet 507/812
+DEBUG:root:Processing tweet 508/812
+DEBUG:root:Processing tweet 509/812
+INFO:root:Academic word match in bio: research
+INFO:root:Academic word match in bio: academic
+INFO:root:Academic word match in bio: scientific
+DEBUG:root:Processing tweet 510/812
+DEBUG:root:Processing tweet 511/812
+DEBUG:root:Processing tweet 512/812
+DEBUG:root:Processing tweet 513/812
+DEBUG:root:Processing tweet 514/812
+DEBUG:root:Processing tweet 515/812
+DEBUG:root:Processing tweet 516/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 517/812
+DEBUG:root:Processing tweet 518/812
+INFO:root:Academic word match in bio: research
+DEBUG:root:Processing tweet 519/812
+DEBUG:root:Processing tweet 520/812
+DEBUG:root:Processing tweet 521/812
+DEBUG:root:Processing tweet 522/812
+DEBUG:root:Processing tweet 523/812
+DEBUG:root:Processing tweet 524/812
+DEBUG:root:Processing tweet 525/812
+DEBUG:root:Processing tweet 526/812
+DEBUG:root:Processing tweet 527/812
+DEBUG:root:Processing tweet 528/812
+DEBUG:root:Processing tweet 529/812
+DEBUG:root:Processing tweet 530/812
+DEBUG:root:Processing tweet 531/812
+DEBUG:root:Processing tweet 532/812
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 533/812
+DEBUG:root:Processing tweet 534/812
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 535/812
+DEBUG:root:Processing tweet 536/812
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 537/812
+DEBUG:root:Processing tweet 538/812
+DEBUG:root:Processing tweet 539/812
+DEBUG:root:Processing tweet 540/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 541/812
+DEBUG:root:Processing tweet 542/812
+DEBUG:root:Processing tweet 543/812
+DEBUG:root:Processing tweet 544/812
+DEBUG:root:Processing tweet 545/812
+DEBUG:root:Processing tweet 546/812
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 547/812
+DEBUG:root:Processing tweet 548/812
+DEBUG:root:Processing tweet 549/812
+DEBUG:root:Processing tweet 550/812
+DEBUG:root:Processing tweet 551/812
+DEBUG:root:Processing tweet 552/812
+INFO:root:Academic word match in bio: studies
+DEBUG:root:Processing tweet 553/812
+DEBUG:root:Processing tweet 554/812
+DEBUG:root:Processing tweet 555/812
+DEBUG:root:Processing tweet 556/812
+DEBUG:root:Processing tweet 557/812
+DEBUG:root:Processing tweet 558/812
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 559/812
+DEBUG:root:Processing tweet 560/812
+DEBUG:root:Processing tweet 561/812
+DEBUG:root:Processing tweet 562/812
+DEBUG:root:Processing tweet 563/812
+DEBUG:root:Processing tweet 564/812
+DEBUG:root:Processing tweet 565/812
+DEBUG:root:Processing tweet 566/812
+DEBUG:root:Processing tweet 567/812
+DEBUG:root:Processing tweet 568/812
+DEBUG:root:Processing tweet 569/812
+DEBUG:root:Processing tweet 570/812
+DEBUG:root:Processing tweet 571/812
+DEBUG:root:Processing tweet 572/812
+DEBUG:root:Processing tweet 573/812
+DEBUG:root:Processing tweet 574/812
+DEBUG:root:Processing tweet 575/812
+DEBUG:root:Processing tweet 576/812
+DEBUG:root:Processing tweet 577/812
+DEBUG:root:Processing tweet 578/812
+INFO:root:Academic word match in bio: research
+DEBUG:root:Processing tweet 579/812
+DEBUG:root:Processing tweet 580/812
+DEBUG:root:Processing tweet 581/812
+DEBUG:root:Processing tweet 582/812
+DEBUG:root:Processing tweet 583/812
+DEBUG:root:Processing tweet 584/812
+DEBUG:root:Processing tweet 585/812
+DEBUG:root:Processing tweet 586/812
+DEBUG:root:Processing tweet 587/812
+DEBUG:root:Processing tweet 588/812
+DEBUG:root:Processing tweet 589/812
+DEBUG:root:Processing tweet 590/812
+DEBUG:root:Processing tweet 591/812
+DEBUG:root:Processing tweet 592/812
+DEBUG:root:Processing tweet 593/812
+DEBUG:root:Processing tweet 594/812
+DEBUG:root:Processing tweet 595/812
+DEBUG:root:Processing tweet 596/812
+DEBUG:root:Processing tweet 597/812
+DEBUG:root:Processing tweet 598/812
+DEBUG:root:Processing tweet 599/812
+DEBUG:root:Processing tweet 600/812
+DEBUG:root:Processing tweet 601/812
+DEBUG:root:Processing tweet 602/812
+DEBUG:root:Processing tweet 603/812
+DEBUG:root:Processing tweet 604/812
+INFO:root:Academic word match in bio: university
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 605/812
+DEBUG:root:Processing tweet 606/812
+DEBUG:root:Processing tweet 607/812
+DEBUG:root:Processing tweet 608/812
+DEBUG:root:Processing tweet 609/812
+DEBUG:root:Processing tweet 610/812
+DEBUG:root:Processing tweet 611/812
+INFO:root:Academic word match in bio: academy
+DEBUG:root:Processing tweet 612/812
+DEBUG:root:Processing tweet 613/812
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 614/812
+DEBUG:root:Processing tweet 615/812
+DEBUG:root:Processing tweet 616/812
+DEBUG:root:Processing tweet 617/812
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 618/812
+DEBUG:root:Processing tweet 619/812
+DEBUG:root:Processing tweet 620/812
+DEBUG:root:Processing tweet 621/812
+DEBUG:root:Processing tweet 622/812
+DEBUG:root:Processing tweet 623/812
+DEBUG:root:Processing tweet 624/812
+DEBUG:root:Processing tweet 625/812
+DEBUG:root:Processing tweet 626/812
+DEBUG:root:Processing tweet 627/812
+DEBUG:root:Processing tweet 628/812
+DEBUG:root:Processing tweet 629/812
+DEBUG:root:Processing tweet 630/812
+DEBUG:root:Processing tweet 631/812
+DEBUG:root:Processing tweet 632/812
+DEBUG:root:Processing tweet 633/812
+DEBUG:root:Processing tweet 634/812
+DEBUG:root:Processing tweet 635/812
+DEBUG:root:Processing tweet 636/812
+DEBUG:root:Processing tweet 637/812
+DEBUG:root:Processing tweet 638/812
+DEBUG:root:Processing tweet 639/812
+DEBUG:root:Processing tweet 640/812
+DEBUG:root:Processing tweet 641/812
+DEBUG:root:Processing tweet 642/812
+DEBUG:root:Processing tweet 643/812
+DEBUG:root:Processing tweet 644/812
+DEBUG:root:Processing tweet 645/812
+DEBUG:root:Processing tweet 646/812
+DEBUG:root:Processing tweet 647/812
+DEBUG:root:Processing tweet 648/812
+DEBUG:root:Processing tweet 649/812
+DEBUG:root:Processing tweet 650/812
+DEBUG:root:Processing tweet 651/812
+DEBUG:root:Processing tweet 652/812
+DEBUG:root:Processing tweet 653/812
+DEBUG:root:Processing tweet 654/812
+DEBUG:root:Processing tweet 655/812
+DEBUG:root:Processing tweet 656/812
+DEBUG:root:Processing tweet 657/812
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 658/812
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 659/812
+DEBUG:root:Processing tweet 660/812
+DEBUG:root:Processing tweet 661/812
+DEBUG:root:Processing tweet 662/812
+DEBUG:root:Processing tweet 663/812
+DEBUG:root:Processing tweet 664/812
+DEBUG:root:Processing tweet 665/812
+DEBUG:root:Processing tweet 666/812
+DEBUG:root:Processing tweet 667/812
+DEBUG:root:Processing tweet 668/812
+DEBUG:root:Processing tweet 669/812
+DEBUG:root:Processing tweet 670/812
+DEBUG:root:Processing tweet 671/812
+DEBUG:root:Processing tweet 672/812
+DEBUG:root:Processing tweet 673/812
+DEBUG:root:Processing tweet 674/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 675/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 676/812
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 677/812
+DEBUG:root:Processing tweet 678/812
+DEBUG:root:Processing tweet 679/812
+DEBUG:root:Processing tweet 680/812
+DEBUG:root:Processing tweet 681/812
+DEBUG:root:Processing tweet 682/812
+DEBUG:root:Processing tweet 683/812
+DEBUG:root:Processing tweet 684/812
+DEBUG:root:Processing tweet 685/812
+DEBUG:root:Processing tweet 686/812
+DEBUG:root:Processing tweet 687/812
+DEBUG:root:Processing tweet 688/812
+DEBUG:root:Processing tweet 689/812
+DEBUG:root:Processing tweet 690/812
+INFO:root:Academic word match in bio: college
+DEBUG:root:Processing tweet 691/812
+DEBUG:root:Processing tweet 692/812
+DEBUG:root:Processing tweet 693/812
+DEBUG:root:Processing tweet 694/812
+DEBUG:root:Processing tweet 695/812
+DEBUG:root:Processing tweet 696/812
+DEBUG:root:Processing tweet 697/812
+DEBUG:root:Processing tweet 698/812
+DEBUG:root:Processing tweet 699/812
+DEBUG:root:Processing tweet 700/812
+DEBUG:root:Processing tweet 701/812
+DEBUG:root:Processing tweet 702/812
+DEBUG:root:Processing tweet 703/812
+INFO:root:Academic word match in bio: sociologist
+INFO:root:Academic word match in bio: sociologists
+DEBUG:root:Processing tweet 704/812
+DEBUG:root:Processing tweet 705/812
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 706/812
+DEBUG:root:Processing tweet 707/812
+DEBUG:root:Processing tweet 708/812
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 709/812
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 710/812
+DEBUG:root:Processing tweet 711/812
+DEBUG:root:Processing tweet 712/812
+DEBUG:root:Processing tweet 713/812
+DEBUG:root:Processing tweet 714/812
+DEBUG:root:Processing tweet 715/812
+INFO:root:Academic word match in bio: academy
+DEBUG:root:Processing tweet 716/812
+DEBUG:root:Processing tweet 717/812
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 718/812
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 719/812
+DEBUG:root:Processing tweet 720/812
+DEBUG:root:Processing tweet 721/812
+DEBUG:root:Processing tweet 722/812
+DEBUG:root:Processing tweet 723/812
+DEBUG:root:Processing tweet 724/812
+DEBUG:root:Processing tweet 725/812
+INFO:root:Academic word match in bio: graduate
+DEBUG:root:Processing tweet 726/812
+DEBUG:root:Processing tweet 727/812
+DEBUG:root:Processing tweet 728/812
+DEBUG:root:Processing tweet 729/812
+DEBUG:root:Processing tweet 730/812
+DEBUG:root:Processing tweet 731/812
+DEBUG:root:Processing tweet 732/812
+INFO:root:Academic word match in bio: higher education
+INFO:root:Academic word match in bio: faculty
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 733/812
+DEBUG:root:Processing tweet 734/812
+DEBUG:root:Processing tweet 735/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 736/812
+INFO:root:Academic word match in bio: sciences
+INFO:root:Academic word match in bio: science
+DEBUG:root:Processing tweet 737/812
+DEBUG:root:Processing tweet 738/812
+DEBUG:root:Processing tweet 739/812
+DEBUG:root:Processing tweet 740/812
+DEBUG:root:Processing tweet 741/812
+DEBUG:root:Processing tweet 742/812
+DEBUG:root:Processing tweet 743/812
+DEBUG:root:Processing tweet 744/812
+DEBUG:root:Processing tweet 745/812
+DEBUG:root:Processing tweet 746/812
+DEBUG:root:Processing tweet 747/812
+DEBUG:root:Processing tweet 748/812
+DEBUG:root:Processing tweet 749/812
+DEBUG:root:Processing tweet 750/812
+DEBUG:root:Processing tweet 751/812
+INFO:root:Academic word match in bio: research
+INFO:root:Academic word match in bio: college
+INFO:root:Academic word match in bio:  prof 
+DEBUG:root:Processing tweet 752/812
+DEBUG:root:Processing tweet 753/812
+INFO:root:Academic word match in bio: professor
+DEBUG:root:Processing tweet 754/812
+INFO:root:Academic word match in bio: academic
+DEBUG:root:Processing tweet 755/812
+DEBUG:root:Processing tweet 756/812
+DEBUG:root:Processing tweet 757/812
+DEBUG:root:Processing tweet 758/812
+DEBUG:root:Processing tweet 759/812
+DEBUG:root:Processing tweet 760/812
+DEBUG:root:Processing tweet 761/812
+INFO:root:Academic word match in bio: university
+INFO:root:Academic word match in bio: education
+DEBUG:root:Processing tweet 762/812
+DEBUG:root:Processing tweet 763/812
+DEBUG:root:Processing tweet 764/812
+DEBUG:root:Processing tweet 765/812
+DEBUG:root:Processing tweet 766/812
+DEBUG:root:Processing tweet 767/812
+DEBUG:root:Processing tweet 768/812
+DEBUG:root:Processing tweet 769/812
+DEBUG:root:Processing tweet 770/812
+DEBUG:root:Processing tweet 771/812
+DEBUG:root:Processing tweet 772/812
+DEBUG:root:Processing tweet 773/812
+DEBUG:root:Processing tweet 774/812
+DEBUG:root:Processing tweet 775/812
+DEBUG:root:Processing tweet 776/812
+DEBUG:root:Processing tweet 777/812
+DEBUG:root:Processing tweet 778/812
+DEBUG:root:Processing tweet 779/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 780/812
+DEBUG:root:Processing tweet 781/812
+DEBUG:root:Processing tweet 782/812
+DEBUG:root:Processing tweet 783/812
+DEBUG:root:Processing tweet 784/812
+DEBUG:root:Processing tweet 785/812
+DEBUG:root:Processing tweet 786/812
+DEBUG:root:Processing tweet 787/812
+DEBUG:root:Processing tweet 788/812
+DEBUG:root:Processing tweet 789/812
+DEBUG:root:Processing tweet 790/812
+DEBUG:root:Processing tweet 791/812
+DEBUG:root:Processing tweet 792/812
+DEBUG:root:Processing tweet 793/812
+DEBUG:root:Processing tweet 794/812
+DEBUG:root:Processing tweet 795/812
+DEBUG:root:Processing tweet 796/812
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 797/812
+DEBUG:root:Processing tweet 798/812
+DEBUG:root:Processing tweet 799/812
+DEBUG:root:Processing tweet 800/812
+DEBUG:root:Processing tweet 801/812
+DEBUG:root:Processing tweet 802/812
+DEBUG:root:Processing tweet 803/812
+DEBUG:root:Processing tweet 804/812
+DEBUG:root:Processing tweet 805/812
+DEBUG:root:Processing tweet 806/812
+DEBUG:root:Processing tweet 807/812
+INFO:root:Academic word match in bio: graduate
+INFO:root:Academic word match in bio: student
+DEBUG:root:Processing tweet 808/812
+DEBUG:root:Processing tweet 809/812
+DEBUG:root:Processing tweet 810/812
+INFO:root:Academic word match in bio: university
+DEBUG:root:Processing tweet 811/812
+DEBUG:root:Processing tweet 812/812
+DEBUG:root:Processing tweet 1/83
+DEBUG:root:Processing tweet 2/83
+DEBUG:root:Processing tweet 3/83
+DEBUG:root:Processing tweet 4/83
+DEBUG:root:Processing tweet 5/83
+DEBUG:root:Processing tweet 6/83
+DEBUG:root:Processing tweet 7/83
+DEBUG:root:Processing tweet 8/83
+DEBUG:root:Processing tweet 9/83
+DEBUG:root:Processing tweet 10/83
+DEBUG:root:Processing tweet 11/83
+DEBUG:root:Processing tweet 12/83
+DEBUG:root:Processing tweet 13/83
+DEBUG:root:Processing tweet 14/83
+DEBUG:root:Processing tweet 15/83
+DEBUG:root:Processing tweet 16/83
+DEBUG:root:Processing tweet 17/83
+DEBUG:root:Processing tweet 18/83
+DEBUG:root:Processing tweet 19/83
+DEBUG:root:Processing tweet 20/83
+DEBUG:root:Processing tweet 21/83
+DEBUG:root:Processing tweet 22/83
+DEBUG:root:Processing tweet 23/83
+DEBUG:root:Processing tweet 24/83
+DEBUG:root:Processing tweet 25/83
+DEBUG:root:Processing tweet 26/83
+DEBUG:root:Processing tweet 27/83
+DEBUG:root:Processing tweet 28/83
+DEBUG:root:Processing tweet 29/83
+DEBUG:root:Processing tweet 30/83
+DEBUG:root:Processing tweet 31/83
+DEBUG:root:Processing tweet 32/83
+DEBUG:root:Processing tweet 33/83
+DEBUG:root:Processing tweet 34/83
+DEBUG:root:Processing tweet 35/83
+DEBUG:root:Processing tweet 36/83
+DEBUG:root:Processing tweet 37/83
+DEBUG:root:Processing tweet 38/83
+DEBUG:root:Processing tweet 39/83
+DEBUG:root:Processing tweet 40/83
+DEBUG:root:Processing tweet 41/83
+DEBUG:root:Processing tweet 42/83
+DEBUG:root:Processing tweet 43/83
+DEBUG:root:Processing tweet 44/83
+DEBUG:root:Processing tweet 45/83
+DEBUG:root:Processing tweet 46/83
+DEBUG:root:Processing tweet 47/83
+DEBUG:root:Processing tweet 48/83
+DEBUG:root:Processing tweet 49/83
+DEBUG:root:Processing tweet 50/83
+DEBUG:root:Processing tweet 51/83
+DEBUG:root:Processing tweet 52/83
+DEBUG:root:Processing tweet 53/83
+DEBUG:root:Processing tweet 54/83
+DEBUG:root:Processing tweet 55/83
+DEBUG:root:Processing tweet 56/83
+DEBUG:root:Processing tweet 57/83
+DEBUG:root:Processing tweet 58/83
+DEBUG:root:Processing tweet 59/83
+DEBUG:root:Processing tweet 60/83
+DEBUG:root:Processing tweet 61/83
+DEBUG:root:Processing tweet 62/83
+DEBUG:root:Processing tweet 63/83
+DEBUG:root:Processing tweet 64/83
+DEBUG:root:Processing tweet 65/83
+DEBUG:root:Processing tweet 66/83
+DEBUG:root:Processing tweet 67/83
+DEBUG:root:Processing tweet 68/83
+DEBUG:root:Processing tweet 69/83
+DEBUG:root:Processing tweet 70/83
+DEBUG:root:Processing tweet 71/83
+DEBUG:root:Processing tweet 72/83
+DEBUG:root:Processing tweet 73/83
+DEBUG:root:Processing tweet 74/83
+DEBUG:root:Processing tweet 75/83
+DEBUG:root:Processing tweet 76/83
+DEBUG:root:Processing tweet 77/83
+DEBUG:root:Processing tweet 78/83
+DEBUG:root:Processing tweet 79/83
+DEBUG:root:Processing tweet 80/83
+DEBUG:root:Processing tweet 81/83
+DEBUG:root:Processing tweet 82/83
+DEBUG:root:Processing tweet 83/83

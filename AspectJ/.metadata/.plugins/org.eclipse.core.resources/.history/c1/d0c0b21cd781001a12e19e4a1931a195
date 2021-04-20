@@ -1,0 +1,66 @@
+package MyDatabase.lib;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
+import javax.swing.JTable;
+import javax.swing.JLabel;
+
+public class App_Window {
+	
+	String URL;
+	String Name;
+	String User;
+	String Pass;
+
+	private JFrame frame;
+	private JTable table;
+	public App_Window(String URL, String Name,String User,String Pass) {
+		this.URL = URL;
+		this.Name = Name;
+		this.User = User;
+		this.Pass = Pass;
+	}
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					App_Window window = new App_Window();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public App_Window() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(200, 200, 1200, 800);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		table = new JTable();
+		table.setBounds(693, 46, 483, 706);
+		frame.getContentPane().add(table);
+		
+		JLabel lblQueryResults = new JLabel("Query Results");
+		lblQueryResults.setBounds(896, 11, 94, 24);
+		frame.getContentPane().add(lblQueryResults);
+	}
+}

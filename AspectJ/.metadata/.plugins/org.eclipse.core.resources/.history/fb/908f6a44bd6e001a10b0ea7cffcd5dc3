@@ -1,0 +1,53 @@
+package cs550;
+
+public aspect CS550_homework3_problem5 {
+
+	/**
+	 * 
+	 * 5. As aspect that whenever the client makes their first transfer, rather than removing money from their account, their account is credited with 50% of the trasnfer amount instead. This is done with two advices: one around and one after.
+	 * 
+	 */
+	pointcut bonusTransfer (Account s, double amount):
+		withincode(public void transfer(int,int,double))
+		&& call(public boolean withdraw(double))
+			&& target(s)
+				&& args(amount); 
+	
+	/**
+	 * 
+	 * 5a.
+	 */
+	Boolean around (Account s, double amount):
+		bonusTransfer (s,amount){
+		int transferCount = s.getTransferCount();
+		if  (transferCount == 0) {
+		System.out.println("Since this is your first transfer the bank will credit your account 50% of the amount you were to transfer instead ");
+		double amount2 = (amount / 2);
+		s.deposit(amount2);
+		}
+		else {
+			System.out.println("Sorry this is the " + s.getTransferCount() + " transfer you have done...No Bonus for you!");
+			proceed(s, amount);
+		}
+		return true;
+	}
+
+	
+	/**
+	 * 
+	 * 5b.
+	 */
+	
+	after (Account s, double amount):
+		bonusTransfer(s,amount){
+		int transferCount = s.getTransferCount();
+		if (transferCount == 0) {
+			System.out.println("You just made your first transfer....Congratulations! You will be deposited 50% of the amount that you transferred");
+		double amount2 = (amount * 1.5);
+		s.deposit(amount2);
+		}
+		else {
+			System.out.println("You have already gotten your bonus!");
+		}
+	} 
+}

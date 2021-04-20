@@ -1,0 +1,89 @@
+package MyDatabase.lib;
+
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.Statement;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+
+public class App_Window {
+	
+	String URL;
+	String Name;
+	String User;
+	String Pass;
+
+	private JFrame frame;
+	private JTable table;
+	public App_Window(String URL, String Name,String User,String Pass) {
+		this.URL = URL;
+		this.Name = Name;
+		this.User = User;
+		this.Pass = Pass;
+	}
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					App_Window window = new App_Window();
+					window.frame.setVisible(true);
+					Connection myConn = DriverManager.getConnection("jdbc:mysql://"+"127.0.0.1" +":3306/" + "counterstrike" , "root","Zingbob23");
+					 // Do something with the Connection
+					JOptionPane.showMessageDialog(null, "Successful Connection!");
+					Statement stmt = myConn.createStatement();
+		            String tablenames = "Show tables";
+		            ResultSet tables = stmt.executeQuery(tablenames);
+		            DefaultTableModel model = new DefaultTableModel();
+		            ResultSetMetaData columns = tables.getMetaData();
+		            int columnCount = columns.getColumnCount();
+		           for (int i = 1;i <= columnCount; i++) {
+		        	   String Column = columns.getColumnName(i);
+		        	   System.out.print(Column + "  ");
+		           }
+		            while(tables.next())
+		            	System.out.println(tables.getString(1));
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public App_Window() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(200, 200, 1200, 800);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		table = new JTable();
+		table.setBounds(693, 62, 483, 690);
+		frame.getContentPane().add(table);
+		
+		JLabel lblQueryResults = new JLabel("Query Results");
+		lblQueryResults.setFont(new Font("Times New Roman", Font.PLAIN, 30));
+		lblQueryResults.setBounds(842, 11, 245, 40);
+		frame.getContentPane().add(lblQueryResults);
+	}
+}

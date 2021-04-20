@@ -1,0 +1,2 @@
+INFO:root:Start: 7_classify_target_tweets.py 
+ERROR:root:[read_collection] : collection names cannot be empty
