@@ -1,1 +1,0 @@
-# ekurpie.github.io
