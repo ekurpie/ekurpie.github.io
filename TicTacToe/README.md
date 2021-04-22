@@ -1,0 +1,2 @@
+These are two python files demonstrating a simple tic tac toe game. One requires two "players" though it can be played by one person easily.
+The second is an "automated" version of the game. These are a bit older, but they still run well and look interesting.

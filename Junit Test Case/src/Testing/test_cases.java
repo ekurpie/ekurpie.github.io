@@ -7,7 +7,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-class Assignment4_test_cases {
+class test_cases {
 	/*
 	 * This test is a simple test for an unsorted list
 	 */

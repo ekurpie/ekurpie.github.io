@@ -1,5 +1,12 @@
 # RoommateMatching
 
+This is the code to a roommate matching website for a study abroad program that was produced with a team of 11. 
+I was one of the 3 developers on this website. A good bit of it was built from scratch, though, other parts used templates such as Bootstrap. 
+As of 4/22/21 the website is still up and available at: https://mis565.amruss.ventures/public/. It uses JS,HTML,CSS for a front end with PHP
+on a mySQL backend. Below is the readme we created for the project when it was submitted for review.
+
+
+
 <pre>public_html
 ├── css            # All custom stylesheets
 ├── data           # Database and data backups
